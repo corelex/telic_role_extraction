@@ -1,0 +1,979 @@
+chopstick.n.01: one of a pair of slender sticks used as oriental tableware to eat food with
+(('one', 'CD'), 'nmod', ('pair', 'NN'))
+(('pair', 'NN'), 'case', ('of', 'IN'))
+(('pair', 'NN'), 'det', ('a', 'DT'))
+(('pair', 'NN'), 'nmod', ('sticks', 'NNS'))
+(('sticks', 'NNS'), 'case', ('of', 'IN'))
+(('sticks', 'NNS'), 'amod', ('slender', 'JJ'))
+(('sticks', 'NNS'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'nmod', ('tableware', 'NN'))
+(('tableware', 'NN'), 'case', ('as', 'IN'))
+(('tableware', 'NN'), 'amod', ('oriental', 'JJ'))
+(('used', 'VBN'), 'xcomp', ('eat', 'VB'))
+(('eat', 'VB'), 'mark', ('to', 'TO'))
+(('eat', 'VB'), 'dobj', ('food', 'NN'))
+(('eat', 'VB'), 'nmod', ('with', 'IN'))
+as oriental tableware to eat food with
+
+crockery.n.01: tableware (eating and serving dishes) collectively
+(('tableware', 'NN'), 'dep', ('eating', 'NN'))
+(('eating', 'NN'), 'punct', ('-LRB-', '-LRB-'))
+(('eating', 'NN'), 'cc', ('and', 'CC'))
+(('eating', 'NN'), 'conj', ('serving', 'VBG'))
+(('serving', 'VBG'), 'dobj', ('dishes', 'NNS'))
+(('eating', 'NN'), 'punct', ('-RRB-', '-RRB-'))
+(('tableware', 'NN'), 'dep', ('collectively', 'RB'))
+
+cutlery.n.02: tableware implements for cutting and eating food
+(('implements', 'VBZ'), 'nsubj', ('tableware', 'NN'))
+(('implements', 'VBZ'), 'advcl', ('cutting', 'VBG'))
+(('cutting', 'VBG'), 'mark', ('for', 'IN'))
+(('cutting', 'VBG'), 'cc', ('and', 'CC'))
+(('cutting', 'VBG'), 'conj', ('eating', 'VBG'))
+(('cutting', 'VBG'), 'dobj', ('food', 'NN'))
+for cutting and eating food
+
+dinnerware.n.01: the tableware (plates and platters and serving bowls etc.) used in serving a meal
+(('tableware', 'NN'), 'det', ('the', 'DT'))
+(('tableware', 'NN'), 'appos', ('plates', 'NNS'))
+(('plates', 'NNS'), 'punct', ('-LRB-', '-LRB-'))
+(('plates', 'NNS'), 'cc', ('and', 'CC'))
+(('plates', 'NNS'), 'conj', ('platters', 'NNS'))
+(('plates', 'NNS'), 'cc', ('and', 'CC'))
+(('plates', 'NNS'), 'conj', ('serving', 'VBG'))
+(('plates', 'NNS'), 'dep', ('etc', 'FW'))
+(('etc', 'FW'), 'compound', ('bowls', 'VBZ'))
+(('plates', 'NNS'), 'punct', ('.', '.'))
+(('plates', 'NNS'), 'punct', ('-RRB-', '-RRB-'))
+
+flatware.n.01: tableware that is relatively flat and fashioned as a single piece
+(('tableware', 'NN'), 'acl:relcl', ('flat', 'JJ'))
+(('flat', 'JJ'), 'nsubj', ('that', 'WDT'))
+(('flat', 'JJ'), 'cop', ('is', 'VBZ'))
+(('flat', 'JJ'), 'advmod', ('relatively', 'RB'))
+(('flat', 'JJ'), 'cc', ('and', 'CC'))
+(('flat', 'JJ'), 'conj', ('fashioned', 'VBN'))
+(('flat', 'JJ'), 'nmod', ('piece', 'NN'))
+(('piece', 'NN'), 'case', ('as', 'IN'))
+(('piece', 'NN'), 'det', ('a', 'DT'))
+(('piece', 'NN'), 'amod', ('single', 'JJ'))
+
+glassware.n.01: an article of tableware made of glass
+(('article', 'NN'), 'det', ('an', 'DT'))
+(('article', 'NN'), 'nmod', ('tableware', 'NN'))
+(('tableware', 'NN'), 'case', ('of', 'IN'))
+(('tableware', 'NN'), 'acl', ('made', 'VBN'))
+(('made', 'VBN'), 'nmod', ('glass', 'NN'))
+(('glass', 'NN'), 'case', ('of', 'IN'))
+
+gold_plate.n.01: tableware that is plated with gold
+(('tableware', 'NN'), 'acl:relcl', ('plated', 'VBN'))
+(('plated', 'VBN'), 'nsubjpass', ('that', 'WDT'))
+(('plated', 'VBN'), 'auxpass', ('is', 'VBZ'))
+(('plated', 'VBN'), 'nmod', ('gold', 'NN'))
+(('gold', 'NN'), 'case', ('with', 'IN'))
+
+service.n.09: tableware consisting of a complete set of articles (silver or dishware) for use at table
+(('tableware', 'NN'), 'acl', ('consisting', 'VBG'))
+(('consisting', 'VBG'), 'nmod', ('set', 'NN'))
+(('set', 'NN'), 'case', ('of', 'IN'))
+(('set', 'NN'), 'det', ('a', 'DT'))
+(('set', 'NN'), 'amod', ('complete', 'JJ'))
+(('set', 'NN'), 'nmod', ('articles', 'NNS'))
+(('articles', 'NNS'), 'case', ('of', 'IN'))
+(('articles', 'NNS'), 'dep', ('silver', 'NN'))
+(('silver', 'NN'), 'punct', ('-LRB-', '-LRB-'))
+(('silver', 'NN'), 'cc', ('or', 'CC'))
+(('silver', 'NN'), 'conj', ('dishware', 'NN'))
+(('silver', 'NN'), 'punct', ('-RRB-', '-RRB-'))
+(('set', 'NN'), 'nmod', ('use', 'NN'))
+(('use', 'NN'), 'case', ('for', 'IN'))
+(('use', 'NN'), 'nmod', ('table', 'NN'))
+(('table', 'NN'), 'case', ('at', 'IN'))
+for use at table
+
+silver_plate.n.01: tableware that is plated with silver
+(('tableware', 'NN'), 'acl:relcl', ('plated', 'VBN'))
+(('plated', 'VBN'), 'nsubjpass', ('that', 'WDT'))
+(('plated', 'VBN'), 'auxpass', ('is', 'VBZ'))
+(('plated', 'VBN'), 'nmod', ('silver', 'NN'))
+(('silver', 'NN'), 'case', ('with', 'IN'))
+
+silverware.n.01: tableware made of silver or silver plate or pewter or stainless steel
+(('made', 'VBD'), 'nsubj', ('tableware', 'NN'))
+(('made', 'VBD'), 'nmod', ('silver', 'NN'))
+(('silver', 'NN'), 'case', ('of', 'IN'))
+(('silver', 'NN'), 'cc', ('or', 'CC'))
+(('silver', 'NN'), 'conj', ('plate', 'NN'))
+(('plate', 'NN'), 'compound', ('silver', 'NN'))
+(('silver', 'NN'), 'cc', ('or', 'CC'))
+(('silver', 'NN'), 'conj', ('steel', 'NN'))
+(('steel', 'NN'), 'compound', ('pewter', 'NN'))
+(('pewter', 'NN'), 'cc', ('or', 'CC'))
+(('pewter', 'NN'), 'conj', ('stainless', 'JJ'))
+
+tea_service.n.01: a set of china or silverware for serving tea
+(('set', 'NN'), 'det', ('a', 'DT'))
+(('set', 'NN'), 'nmod', ('china', 'NN'))
+(('china', 'NN'), 'case', ('of', 'IN'))
+(('china', 'NN'), 'cc', ('or', 'CC'))
+(('china', 'NN'), 'conj', ('silverware', 'NN'))
+(('set', 'NN'), 'acl', ('serving', 'VBG'))
+(('serving', 'VBG'), 'mark', ('for', 'IN'))
+(('serving', 'VBG'), 'dobj', ('tea', 'NN'))
+for serving tea
+
+chinaware.n.01: dishware made of high quality porcelain
+(('made', 'VBD'), 'nsubj', ('dishware', 'NN'))
+(('made', 'VBD'), 'nmod', ('porcelain', 'NN'))
+(('porcelain', 'NN'), 'case', ('of', 'IN'))
+(('porcelain', 'NN'), 'amod', ('high', 'JJ'))
+(('porcelain', 'NN'), 'compound', ('quality', 'NN'))
+
+cup.n.01: a small open container usually used for drinking; usually has a handle
+(('container', 'NN'), 'det', ('a', 'DT'))
+(('container', 'NN'), 'amod', ('small', 'JJ'))
+(('container', 'NN'), 'amod', ('open', 'JJ'))
+(('container', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advmod', ('usually', 'RB'))
+(('used', 'VBN'), 'nmod', ('drinking', 'NN'))
+(('drinking', 'NN'), 'case', ('for', 'IN'))
+(('container', 'NN'), 'punct', (';', ':'))
+(('container', 'NN'), 'dep', ('has', 'VBZ'))
+(('has', 'VBZ'), 'advmod', ('usually', 'RB'))
+(('has', 'VBZ'), 'dobj', ('handle', 'VB'))
+(('handle', 'VB'), 'det', ('a', 'DT'))
+for drinking
+
+dish.n.01: a piece of dishware normally used as a container for holding or serving food
+(('piece', 'NN'), 'det', ('a', 'DT'))
+(('piece', 'NN'), 'nmod', ('dishware', 'NN'))
+(('dishware', 'NN'), 'case', ('of', 'IN'))
+(('piece', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advmod', ('normally', 'RB'))
+(('used', 'VBN'), 'nmod', ('container', 'NN'))
+(('container', 'NN'), 'case', ('as', 'IN'))
+(('container', 'NN'), 'det', ('a', 'DT'))
+(('container', 'NN'), 'acl', ('holding', 'VBG'))
+(('holding', 'VBG'), 'mark', ('for', 'IN'))
+(('holding', 'VBG'), 'cc', ('or', 'CC'))
+(('holding', 'VBG'), 'conj', ('serving', 'VBG'))
+(('holding', 'VBG'), 'dobj', ('food', 'NN'))
+as a container for holding or serving food
+
+eggcup.n.01: dishware consisting of a small cup for serving a boiled egg
+(('dishware', 'NN'), 'acl', ('consisting', 'VBG'))
+(('consisting', 'VBG'), 'nmod', ('cup', 'NN'))
+(('cup', 'NN'), 'case', ('of', 'IN'))
+(('cup', 'NN'), 'det', ('a', 'DT'))
+(('cup', 'NN'), 'amod', ('small', 'JJ'))
+(('cup', 'NN'), 'acl', ('serving', 'VBG'))
+(('serving', 'VBG'), 'mark', ('for', 'IN'))
+(('serving', 'VBG'), 'dobj', ('egg', 'NN'))
+(('egg', 'NN'), 'det', ('a', 'DT'))
+(('egg', 'NN'), 'amod', ('boiled', 'VBN'))
+for serving a boiled egg
+
+ovenware.n.01: heat-resistant dishware in which food can be cooked as well as served
+(('dishware', 'NN'), 'amod', ('heat-resistant', 'JJ'))
+(('dishware', 'NN'), 'acl:relcl', ('cooked', 'VBN'))
+(('cooked', 'VBN'), 'nmod', ('which', 'WDT'))
+(('which', 'WDT'), 'case', ('in', 'IN'))
+(('cooked', 'VBN'), 'nsubjpass', ('food', 'NN'))
+(('cooked', 'VBN'), 'aux', ('can', 'MD'))
+(('cooked', 'VBN'), 'auxpass', ('be', 'VB'))
+(('cooked', 'VBN'), 'cc', ('as', 'RB'))
+(('as', 'RB'), 'mwe', ('well', 'RB'))
+(('as', 'RB'), 'mwe', ('as', 'IN'))
+(('cooked', 'VBN'), 'conj', ('served', 'VBN'))
+
+fork.n.01: cutlery used for serving and eating food
+(('cutlery', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('serving', 'VBG'))
+(('serving', 'VBG'), 'mark', ('for', 'IN'))
+(('serving', 'VBG'), 'cc', ('and', 'CC'))
+(('serving', 'VBG'), 'conj', ('eating', 'VBG'))
+(('serving', 'VBG'), 'dobj', ('food', 'NN'))
+for serving and eating food
+
+spoon.n.01: a piece of cutlery with a shallow bowl-shaped container and a handle; used to stir or serve or take up food
+(('piece', 'NN'), 'det', ('a', 'DT'))
+(('piece', 'NN'), 'nmod', ('cutlery', 'NN'))
+(('cutlery', 'NN'), 'case', ('of', 'IN'))
+(('piece', 'NN'), 'nmod', ('container', 'NN'))
+(('container', 'NN'), 'case', ('with', 'IN'))
+(('container', 'NN'), 'det', ('a', 'DT'))
+(('container', 'NN'), 'amod', ('shallow', 'JJ'))
+(('container', 'NN'), 'amod', ('bowl-shaped', 'JJ'))
+(('container', 'NN'), 'cc', ('and', 'CC'))
+(('container', 'NN'), 'conj', ('handle', 'VB'))
+(('handle', 'VB'), 'det', ('a', 'DT'))
+(('piece', 'NN'), 'punct', (';', ':'))
+(('piece', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'xcomp', ('stir', 'VB'))
+(('stir', 'VB'), 'mark', ('to', 'TO'))
+(('stir', 'VB'), 'cc', ('or', 'CC'))
+(('stir', 'VB'), 'conj', ('serve', 'VB'))
+(('stir', 'VB'), 'cc', ('or', 'CC'))
+(('stir', 'VB'), 'conj', ('take', 'VB'))
+(('take', 'VB'), 'compound:prt', ('up', 'RP'))
+(('take', 'VB'), 'dobj', ('food', 'NN'))
+to stir or serve or take up food
+
+spork.n.01: trademark for a plastic eating utensil that has both tines and a bowl like a spoon
+(('trademark', 'NN'), 'nmod', ('utensil', 'NN'))
+(('utensil', 'NN'), 'case', ('for', 'IN'))
+(('utensil', 'NN'), 'det', ('a', 'DT'))
+(('utensil', 'NN'), 'amod', ('plastic', 'JJ'))
+(('utensil', 'NN'), 'compound', ('eating', 'NN'))
+(('utensil', 'NN'), 'acl:relcl', ('has', 'VBZ'))
+(('has', 'VBZ'), 'nsubj', ('that', 'WDT'))
+(('has', 'VBZ'), 'dobj', ('tines', 'NNS'))
+(('tines', 'NNS'), 'cc:preconj', ('both', 'DT'))
+(('tines', 'NNS'), 'cc', ('and', 'CC'))
+(('tines', 'NNS'), 'conj', ('bowl', 'NN'))
+(('bowl', 'NN'), 'det', ('a', 'DT'))
+(('bowl', 'NN'), 'nmod', ('spoon', 'NN'))
+(('spoon', 'NN'), 'case', ('like', 'IN'))
+(('spoon', 'NN'), 'det', ('a', 'DT'))
+for a plastic utensil eating has that tines both and a bowl like a spoon
+
+table_knife.n.01: a knife used for eating at dining table
+(('knife', 'NN'), 'det', ('a', 'DT'))
+(('knife', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('eating', 'VBG'))
+(('eating', 'VBG'), 'mark', ('for', 'IN'))
+(('eating', 'VBG'), 'advcl', ('dining', 'VBG'))
+(('dining', 'VBG'), 'mark', ('at', 'IN'))
+(('dining', 'VBG'), 'dobj', ('table', 'NN'))
+for eating at dining table
+
+plate.n.04: dish on which food is served or from which food is eaten
+(('dish', 'NN'), 'acl:relcl', ('served', 'VBN'))
+(('served', 'VBN'), 'nmod', ('which', 'WDT'))
+(('which', 'WDT'), 'case', ('on', 'IN'))
+(('served', 'VBN'), 'nsubjpass', ('food', 'NN'))
+(('served', 'VBN'), 'auxpass', ('is', 'VBZ'))
+(('served', 'VBN'), 'cc', ('or', 'CC'))
+(('served', 'VBN'), 'conj', ('eaten', 'VBN'))
+(('eaten', 'VBN'), 'nmod', ('which', 'WDT'))
+(('which', 'WDT'), 'case', ('from', 'IN'))
+(('eaten', 'VBN'), 'nsubjpass', ('food', 'NN'))
+(('eaten', 'VBN'), 'auxpass', ('is', 'VBZ'))
+
+platter.n.01: a large shallow dish used for serving food
+(('dish', 'NN'), 'det', ('a', 'DT'))
+(('dish', 'NN'), 'amod', ('large', 'JJ'))
+(('dish', 'NN'), 'amod', ('shallow', 'JJ'))
+(('dish', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('serving', 'VBG'))
+(('serving', 'VBG'), 'mark', ('for', 'IN'))
+(('serving', 'VBG'), 'dobj', ('food', 'NN'))
+for serving food
+
+saucer.n.02: a small shallow dish for holding a cup at the table
+(('dish', 'NN'), 'det', ('a', 'DT'))
+(('dish', 'NN'), 'amod', ('small', 'JJ'))
+(('dish', 'NN'), 'amod', ('shallow', 'JJ'))
+(('dish', 'NN'), 'acl', ('holding', 'VBG'))
+(('holding', 'VBG'), 'mark', ('for', 'IN'))
+(('holding', 'VBG'), 'dobj', ('cup', 'NN'))
+(('cup', 'NN'), 'det', ('a', 'DT'))
+(('holding', 'VBG'), 'nmod', ('table', 'NN'))
+(('table', 'NN'), 'case', ('at', 'IN'))
+(('table', 'NN'), 'det', ('the', 'DT'))
+for holding a cup at the table
+
+crystal.n.05: glassware made of quartz
+(('made', 'VBD'), 'nsubj', ('glassware', 'NN'))
+(('made', 'VBD'), 'nmod', ('quartz', 'NN'))
+(('quartz', 'NN'), 'case', ('of', 'IN'))
+
+cut_glass.n.01: glass decorated by cutting or grinding facets
+(('glass', 'NN'), 'acl', ('decorated', 'VBN'))
+(('decorated', 'VBN'), 'advcl', ('cutting', 'VBG'))
+(('cutting', 'VBG'), 'mark', ('by', 'IN'))
+(('cutting', 'VBG'), 'cc', ('or', 'CC'))
+(('cutting', 'VBG'), 'conj', ('grinding', 'VBG'))
+(('cutting', 'VBG'), 'dobj', ('facets', 'NNS'))
+
+glass.n.07: glassware collectively
+(('glassware', 'NN'), 'advmod', ('collectively', 'RB'))
+
+venetian_glass.n.01: fine glassware made near Venice
+(('glassware', 'NN'), 'amod', ('fine', 'JJ'))
+(('glassware', 'NN'), 'acl', ('made', 'VBN'))
+(('made', 'VBN'), 'nmod', ('Venice', 'NNP'))
+(('Venice', 'NNP'), 'case', ('near', 'IN'))
+
+dinner_service.n.01: a table service for serving dinner
+(('service', 'NN'), 'det', ('a', 'DT'))
+(('service', 'NN'), 'compound', ('table', 'NN'))
+(('service', 'NN'), 'acl', ('serving', 'VBG'))
+(('serving', 'VBG'), 'mark', ('for', 'IN'))
+(('serving', 'VBG'), 'dobj', ('dinner', 'NN'))
+for serving dinner
+
+place_setting.n.01: a table service for one person
+(('service', 'NN'), 'det', ('a', 'DT'))
+(('service', 'NN'), 'compound', ('table', 'NN'))
+(('service', 'NN'), 'nmod', ('person', 'NN'))
+(('person', 'NN'), 'case', ('for', 'IN'))
+(('person', 'NN'), 'nummod', ('one', 'CD'))
+for person one
+
+flatware.n.02: silverware eating utensils
+(('utensils', 'NNS'), 'compound', ('silverware', 'NN'))
+(('utensils', 'NNS'), 'compound', ('eating', 'NN'))
+
+hollowware.n.01: silverware serving dishes
+(('silverware', 'NN'), 'acl', ('serving', 'VBG'))
+(('serving', 'VBG'), 'dobj', ('dishes', 'NNS'))
+
+willowware.n.01: chinaware decorated with a blue Chinese design on a white background depicting a willow tree and often a river
+(('chinaware', 'NN'), 'acl', ('decorated', 'VBN'))
+(('decorated', 'VBN'), 'nmod', ('design', 'NN'))
+(('design', 'NN'), 'case', ('with', 'IN'))
+(('design', 'NN'), 'det', ('a', 'DT'))
+(('design', 'NN'), 'amod', ('blue', 'JJ'))
+(('design', 'NN'), 'amod', ('Chinese', 'JJ'))
+(('design', 'NN'), 'nmod', ('background', 'NN'))
+(('background', 'NN'), 'case', ('on', 'IN'))
+(('background', 'NN'), 'det', ('a', 'DT'))
+(('background', 'NN'), 'amod', ('white', 'JJ'))
+(('background', 'NN'), 'acl', ('depicting', 'VBG'))
+(('depicting', 'VBG'), 'dobj', ('tree', 'NN'))
+(('tree', 'NN'), 'det', ('a', 'DT'))
+(('tree', 'NN'), 'compound', ('willow', 'NN'))
+(('chinaware', 'NN'), 'cc', ('and', 'CC'))
+(('chinaware', 'NN'), 'conj', ('river', 'NN'))
+(('river', 'NN'), 'advmod', ('often', 'RB'))
+(('river', 'NN'), 'det', ('a', 'DT'))
+
+beaker.n.02: a cup (usually without a handle)
+(('cup', 'NN'), 'det', ('a', 'DT'))
+(('cup', 'NN'), 'appos', ('handle', 'VBP'))
+(('handle', 'VBP'), 'punct', ('-LRB-', '-LRB-'))
+(('handle', 'VBP'), 'advmod', ('usually', 'RB'))
+(('handle', 'VBP'), 'case', ('without', 'IN'))
+(('handle', 'VBP'), 'det', ('a', 'DT'))
+(('handle', 'VBP'), 'punct', ('-RRB-', '-RRB-'))
+
+chalice.n.01: a bowl-shaped drinking vessel; especially the Eucharistic cup
+(('vessel', 'NN'), 'det', ('a', 'DT'))
+(('vessel', 'NN'), 'amod', ('bowl-shaped', 'JJ'))
+(('vessel', 'NN'), 'compound', ('drinking', 'NN'))
+(('vessel', 'NN'), 'punct', (';', ':'))
+(('vessel', 'NN'), 'dep', ('cup', 'NN'))
+(('cup', 'NN'), 'advmod', ('especially', 'RB'))
+(('cup', 'NN'), 'det', ('the', 'DT'))
+(('cup', 'NN'), 'compound', ('Eucharistic', 'NNP'))
+
+coffee_cup.n.01: a cup from which coffee is drunk
+(('cup', 'NN'), 'det', ('a', 'DT'))
+(('cup', 'NN'), 'acl:relcl', ('drunk', 'JJ'))
+(('drunk', 'JJ'), 'nmod', ('which', 'WDT'))
+(('which', 'WDT'), 'case', ('from', 'IN'))
+(('drunk', 'JJ'), 'nsubj', ('coffee', 'NN'))
+(('drunk', 'JJ'), 'cop', ('is', 'VBZ'))
+
+dixie_cup.n.01: a disposable cup made of paper; for holding drinks
+(('cup', 'NN'), 'det', ('a', 'DT'))
+(('cup', 'NN'), 'amod', ('disposable', 'JJ'))
+(('cup', 'NN'), 'acl', ('made', 'VBN'))
+(('made', 'VBN'), 'nmod', ('paper', 'NN'))
+(('paper', 'NN'), 'case', ('of', 'IN'))
+(('cup', 'NN'), 'punct', (';', ':'))
+(('cup', 'NN'), 'acl', ('holding', 'VBG'))
+(('holding', 'VBG'), 'mark', ('for', 'IN'))
+(('holding', 'VBG'), 'dobj', ('drinks', 'NNS'))
+for holding drinks
+
+grace_cup.n.01: cup to be passed around for the final toast after a meal
+(('cup', 'NN'), 'acl', ('passed', 'VBN'))
+(('passed', 'VBN'), 'mark', ('to', 'TO'))
+(('passed', 'VBN'), 'auxpass', ('be', 'VB'))
+(('passed', 'VBN'), 'compound:prt', ('around', 'RP'))
+(('passed', 'VBN'), 'nmod', ('toast', 'NN'))
+(('toast', 'NN'), 'case', ('for', 'IN'))
+(('toast', 'NN'), 'det', ('the', 'DT'))
+(('toast', 'NN'), 'amod', ('final', 'JJ'))
+(('passed', 'VBN'), 'nmod', ('meal', 'NN'))
+(('meal', 'NN'), 'case', ('after', 'IN'))
+(('meal', 'NN'), 'det', ('a', 'DT'))
+for the final toast
+
+kylix.n.01: a shallow drinking cup with two handles; used in ancient Greece
+(('cup', 'NN'), 'det', ('a', 'DT'))
+(('cup', 'NN'), 'amod', ('shallow', 'JJ'))
+(('cup', 'NN'), 'compound', ('drinking', 'NN'))
+(('cup', 'NN'), 'nmod', ('handles', 'VBZ'))
+(('handles', 'VBZ'), 'case', ('with', 'IN'))
+(('handles', 'VBZ'), 'nummod', ('two', 'CD'))
+(('cup', 'NN'), 'punct', (';', ':'))
+(('cup', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'nmod', ('Greece', 'NNP'))
+(('Greece', 'NNP'), 'case', ('in', 'IN'))
+(('Greece', 'NNP'), 'amod', ('ancient', 'JJ'))
+in ancient Greece
+
+mustache_cup.n.01: a drinking cup with a bar inside the rim to keep a man's mustache out of the drink
+(('cup', 'NN'), 'det', ('a', 'DT'))
+(('cup', 'NN'), 'compound', ('drinking', 'NN'))
+(('cup', 'NN'), 'nmod', ('bar', 'NN'))
+(('bar', 'NN'), 'case', ('with', 'IN'))
+(('bar', 'NN'), 'det', ('a', 'DT'))
+(('bar', 'NN'), 'nmod', ('rim', 'NN'))
+(('rim', 'NN'), 'case', ('inside', 'IN'))
+(('rim', 'NN'), 'det', ('the', 'DT'))
+(('cup', 'NN'), 'acl', ('keep', 'VB'))
+(('keep', 'VB'), 'mark', ('to', 'TO'))
+(('keep', 'VB'), 'dobj', ('mustache', 'NN'))
+(('mustache', 'NN'), 'nmod:poss', ('man', 'NN'))
+(('man', 'NN'), 'det', ('a', 'DT'))
+(('man', 'NN'), 'case', ("'s", 'POS'))
+(('keep', 'VB'), 'nmod', ('drink', 'NN'))
+(('drink', 'NN'), 'case', ('out', 'IN'))
+(('drink', 'NN'), 'case', ('of', 'IN'))
+(('drink', 'NN'), 'det', ('the', 'DT'))
+
+scyphus.n.01: an ancient Greek drinking cup; two handles and footed base
+(('cup', 'NN'), 'det', ('an', 'DT'))
+(('cup', 'NN'), 'amod', ('ancient', 'JJ'))
+(('cup', 'NN'), 'amod', ('Greek', 'JJ'))
+(('cup', 'NN'), 'compound', ('drinking', 'NN'))
+(('cup', 'NN'), 'punct', (';', ':'))
+(('cup', 'NN'), 'dep', ('handles', 'VBZ'))
+(('handles', 'VBZ'), 'nsubj', ('two', 'CD'))
+(('handles', 'VBZ'), 'cc', ('and', 'CC'))
+(('handles', 'VBZ'), 'conj', ('footed', 'JJ'))
+(('handles', 'VBZ'), 'dobj', ('base', 'NN'))
+
+teacup.n.02: a cup from which tea is drunk
+(('cup', 'NN'), 'det', ('a', 'DT'))
+(('cup', 'NN'), 'acl:relcl', ('drunk', 'JJ'))
+(('drunk', 'JJ'), 'nmod', ('which', 'WDT'))
+(('which', 'WDT'), 'case', ('from', 'IN'))
+(('drunk', 'JJ'), 'nsubj', ('tea', 'NN'))
+(('drunk', 'JJ'), 'cop', ('is', 'VBZ'))
+
+bowl.n.03: a dish that is round and open at the top for serving foods
+(('dish', 'NN'), 'det', ('a', 'DT'))
+(('dish', 'NN'), 'acl:relcl', ('round', 'JJ'))
+(('round', 'JJ'), 'nsubj', ('that', 'WDT'))
+(('round', 'JJ'), 'cop', ('is', 'VBZ'))
+(('round', 'JJ'), 'cc', ('and', 'CC'))
+(('round', 'JJ'), 'conj', ('open', 'JJ'))
+(('round', 'JJ'), 'nmod', ('top', 'NN'))
+(('top', 'NN'), 'case', ('at', 'IN'))
+(('top', 'NN'), 'det', ('the', 'DT'))
+(('top', 'NN'), 'acl', ('serving', 'VBG'))
+(('serving', 'VBG'), 'mark', ('for', 'IN'))
+(('serving', 'VBG'), 'dobj', ('foods', 'NNS'))
+for serving foods
+
+butter_dish.n.01: a small dish (often with a cover) for holding butter at the table
+(('dish', 'NN'), 'det', ('a', 'DT'))
+(('dish', 'NN'), 'amod', ('small', 'JJ'))
+(('dish', 'NN'), 'appos', ('cover', 'NN'))
+(('cover', 'NN'), 'punct', ('-LRB-', '-LRB-'))
+(('cover', 'NN'), 'advmod', ('often', 'RB'))
+(('cover', 'NN'), 'case', ('with', 'IN'))
+(('cover', 'NN'), 'det', ('a', 'DT'))
+(('cover', 'NN'), 'punct', ('-RRB-', '-RRB-'))
+(('dish', 'NN'), 'acl', ('holding', 'VBG'))
+(('holding', 'VBG'), 'mark', ('for', 'IN'))
+(('holding', 'VBG'), 'dobj', ('butter', 'NN'))
+(('holding', 'VBG'), 'nmod', ('table', 'NN'))
+(('table', 'NN'), 'case', ('at', 'IN'))
+(('table', 'NN'), 'det', ('the', 'DT'))
+for holding butter at the table
+
+casserole.n.02: large deep dish in which food can be cooked and served
+(('dish', 'NN'), 'amod', ('large', 'JJ'))
+(('dish', 'NN'), 'amod', ('deep', 'JJ'))
+(('dish', 'NN'), 'acl:relcl', ('cooked', 'VBN'))
+(('cooked', 'VBN'), 'nmod', ('which', 'WDT'))
+(('which', 'WDT'), 'case', ('in', 'IN'))
+(('cooked', 'VBN'), 'nsubjpass', ('food', 'NN'))
+(('cooked', 'VBN'), 'aux', ('can', 'MD'))
+(('cooked', 'VBN'), 'auxpass', ('be', 'VB'))
+(('cooked', 'VBN'), 'cc', ('and', 'CC'))
+(('cooked', 'VBN'), 'conj', ('served', 'VBN'))
+
+coquille.n.02: a dish in the form of a scallop shell
+(('dish', 'NN'), 'det', ('a', 'DT'))
+(('dish', 'NN'), 'nmod', ('form', 'NN'))
+(('form', 'NN'), 'case', ('in', 'IN'))
+(('form', 'NN'), 'det', ('the', 'DT'))
+(('form', 'NN'), 'nmod', ('shell', 'NN'))
+(('shell', 'NN'), 'case', ('of', 'IN'))
+(('shell', 'NN'), 'det', ('a', 'DT'))
+(('shell', 'NN'), 'compound', ('scallop', 'NN'))
+
+gravy_boat.n.01: a dish (often boat-shaped) for serving gravy or sauce
+(('dish', 'NN'), 'det', ('a', 'DT'))
+(('dish', 'NN'), 'appos', ('boat-shaped', 'JJ'))
+(('boat-shaped', 'JJ'), 'punct', ('-LRB-', '-LRB-'))
+(('boat-shaped', 'JJ'), 'advmod', ('often', 'RB'))
+(('boat-shaped', 'JJ'), 'punct', ('-RRB-', '-RRB-'))
+(('dish', 'NN'), 'acl', ('serving', 'VBG'))
+(('serving', 'VBG'), 'mark', ('for', 'IN'))
+(('serving', 'VBG'), 'dobj', ('gravy', 'NN'))
+(('gravy', 'NN'), 'cc', ('or', 'CC'))
+(('gravy', 'NN'), 'conj', ('sauce', 'NN'))
+for serving gravy or sauce
+
+petri_dish.n.01: a shallow dish used to culture bacteria
+(('dish', 'NN'), 'det', ('a', 'DT'))
+(('dish', 'NN'), 'amod', ('shallow', 'JJ'))
+(('dish', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'nmod', ('bacteria', 'NNS'))
+(('bacteria', 'NNS'), 'case', ('to', 'TO'))
+(('bacteria', 'NNS'), 'compound', ('culture', 'NN'))
+to bacteria culture
+
+ramekin.n.02: a small fireproof dish used for baking and serving individual portions
+(('dish', 'NN'), 'det', ('a', 'DT'))
+(('dish', 'NN'), 'amod', ('small', 'JJ'))
+(('dish', 'NN'), 'amod', ('fireproof', 'JJ'))
+(('dish', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('baking', 'VBG'))
+(('baking', 'VBG'), 'mark', ('for', 'IN'))
+(('baking', 'VBG'), 'cc', ('and', 'CC'))
+(('baking', 'VBG'), 'conj', ('serving', 'VBG'))
+(('baking', 'VBG'), 'dobj', ('portions', 'NNS'))
+(('portions', 'NNS'), 'amod', ('individual', 'JJ'))
+for baking and serving individual portions
+
+serving_dish.n.01: a dish used for serving food
+(('dish', 'NN'), 'det', ('a', 'DT'))
+(('dish', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('serving', 'VBG'))
+(('serving', 'VBG'), 'mark', ('for', 'IN'))
+(('serving', 'VBG'), 'dobj', ('food', 'NN'))
+for serving food
+
+sugar_bowl.n.01: a dish in which sugar is served
+(('dish', 'NN'), 'det', ('a', 'DT'))
+(('dish', 'NN'), 'acl:relcl', ('served', 'VBN'))
+(('served', 'VBN'), 'nmod', ('which', 'WDT'))
+(('which', 'WDT'), 'case', ('in', 'IN'))
+(('served', 'VBN'), 'nsubjpass', ('sugar', 'NN'))
+(('served', 'VBN'), 'auxpass', ('is', 'VBZ'))
+
+watch_glass.n.01: laboratory glassware; a shallow glass dish used as an evaporating surface or to cover a beaker
+(('glassware', 'NN'), 'compound', ('laboratory', 'NN'))
+(('glassware', 'NN'), 'punct', (';', ':'))
+(('glassware', 'NN'), 'dep', ('dish', 'NN'))
+(('dish', 'NN'), 'det', ('a', 'DT'))
+(('dish', 'NN'), 'amod', ('shallow', 'JJ'))
+(('dish', 'NN'), 'compound', ('glass', 'NN'))
+(('dish', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'nmod', ('surface', 'NN'))
+(('surface', 'NN'), 'case', ('as', 'IN'))
+(('surface', 'NN'), 'det', ('an', 'DT'))
+(('surface', 'NN'), 'amod', ('evaporating', 'VBG'))
+(('dish', 'NN'), 'cc', ('or', 'CC'))
+(('dish', 'NN'), 'conj', ('cover', 'VB'))
+(('cover', 'VB'), 'mark', ('to', 'TO'))
+(('cover', 'VB'), 'dobj', ('beaker', 'NN'))
+(('beaker', 'NN'), 'det', ('a', 'DT'))
+as an evaporating surface
+
+carving_fork.n.01: a large fork used in carving cooked meat
+(('fork', 'NN'), 'det', ('a', 'DT'))
+(('fork', 'NN'), 'amod', ('large', 'JJ'))
+(('fork', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('carving', 'VBG'))
+(('carving', 'VBG'), 'mark', ('in', 'IN'))
+(('carving', 'VBG'), 'dobj', ('meat', 'NN'))
+(('meat', 'NN'), 'amod', ('cooked', 'VBN'))
+in carving cooked meat
+
+salad_fork.n.01: a fork intended for eating salads
+(('fork', 'NN'), 'det', ('a', 'DT'))
+(('fork', 'NN'), 'acl', ('intended', 'VBN'))
+(('intended', 'VBN'), 'advcl', ('eating', 'VBG'))
+(('eating', 'VBG'), 'mark', ('for', 'IN'))
+(('eating', 'VBG'), 'dobj', ('salads', 'NNS'))
+for eating salads
+
+tablefork.n.01: a fork for eating at a dining table
+(('fork', 'NN'), 'det', ('a', 'DT'))
+(('fork', 'NN'), 'acl', ('eating', 'VBG'))
+(('eating', 'VBG'), 'mark', ('for', 'IN'))
+(('eating', 'VBG'), 'nmod', ('table', 'NN'))
+(('table', 'NN'), 'case', ('at', 'IN'))
+(('table', 'NN'), 'det', ('a', 'DT'))
+(('table', 'NN'), 'compound', ('dining', 'NN'))
+for eating at a table dining
+
+toasting_fork.n.01: long-handled fork for cooking or toasting frankfurters or bread etc. (especially over an open fire)
+(('fork', 'NN'), 'amod', ('long-handled', 'JJ'))
+(('fork', 'NN'), 'nmod', ('cooking', 'NN'))
+(('cooking', 'NN'), 'case', ('for', 'IN'))
+(('cooking', 'NN'), 'cc', ('or', 'CC'))
+(('cooking', 'NN'), 'conj', ('frankfurters', 'NNS'))
+(('frankfurters', 'NNS'), 'amod', ('toasting', 'VBG'))
+(('frankfurters', 'NNS'), 'cc', ('or', 'CC'))
+(('frankfurters', 'NNS'), 'conj', ('etc', 'NN'))
+(('etc', 'NN'), 'compound', ('bread', 'NN'))
+(('fork', 'NN'), 'punct', ('.', '.'))
+for cooking or toasting frankfurters or etc bread
+
+dessert_spoon.n.01: a spoon larger than a teaspoon and smaller than a tablespoon
+(('spoon', 'NN'), 'det', ('a', 'DT'))
+(('spoon', 'NN'), 'dep', ('larger', 'JJR'))
+(('larger', 'JJR'), 'nmod', ('teaspoon', 'NN'))
+(('teaspoon', 'NN'), 'case', ('than', 'IN'))
+(('teaspoon', 'NN'), 'det', ('a', 'DT'))
+(('larger', 'JJR'), 'cc', ('and', 'CC'))
+(('larger', 'JJR'), 'conj', ('smaller', 'JJR'))
+(('smaller', 'JJR'), 'nmod', ('tablespoon', 'NN'))
+(('tablespoon', 'NN'), 'case', ('than', 'IN'))
+(('tablespoon', 'NN'), 'det', ('a', 'DT'))
+
+runcible_spoon.n.01: a fork-like spoon with a cutting edge; coined by Edward Lear
+(('spoon', 'NN'), 'det', ('a', 'DT'))
+(('spoon', 'NN'), 'amod', ('fork-like', 'JJ'))
+(('spoon', 'NN'), 'nmod', ('edge', 'NN'))
+(('edge', 'NN'), 'case', ('with', 'IN'))
+(('edge', 'NN'), 'det', ('a', 'DT'))
+(('edge', 'NN'), 'compound', ('cutting', 'VBG'))
+(('spoon', 'NN'), 'punct', (';', ':'))
+(('spoon', 'NN'), 'acl', ('coined', 'VBN'))
+(('coined', 'VBN'), 'nmod', ('Lear', 'NNP'))
+(('Lear', 'NNP'), 'case', ('by', 'IN'))
+(('Lear', 'NNP'), 'compound', ('Edward', 'NNP'))
+
+soupspoon.n.01: a spoon with a rounded bowl for eating soup
+(('spoon', 'NN'), 'det', ('a', 'DT'))
+(('spoon', 'NN'), 'nmod', ('bowl', 'NN'))
+(('bowl', 'NN'), 'case', ('with', 'IN'))
+(('bowl', 'NN'), 'det', ('a', 'DT'))
+(('bowl', 'NN'), 'amod', ('rounded', 'VBN'))
+(('bowl', 'NN'), 'acl', ('eating', 'VBG'))
+(('eating', 'VBG'), 'mark', ('for', 'IN'))
+(('eating', 'VBG'), 'dobj', ('soup', 'NN'))
+for eating soup
+
+sugar_spoon.n.01: a spoon for serving sugar; often made in the shape of a seashell
+(('spoon', 'NN'), 'det', ('a', 'DT'))
+(('spoon', 'NN'), 'acl', ('serving', 'VBG'))
+(('serving', 'VBG'), 'mark', ('for', 'IN'))
+(('serving', 'VBG'), 'dobj', ('sugar', 'NN'))
+(('spoon', 'NN'), 'punct', (';', ':'))
+(('spoon', 'NN'), 'acl', ('made', 'VBN'))
+(('made', 'VBN'), 'advmod', ('often', 'RB'))
+(('made', 'VBN'), 'nmod', ('shape', 'NN'))
+(('shape', 'NN'), 'case', ('in', 'IN'))
+(('shape', 'NN'), 'det', ('the', 'DT'))
+(('shape', 'NN'), 'nmod', ('seashell', 'NN'))
+(('seashell', 'NN'), 'case', ('of', 'IN'))
+(('seashell', 'NN'), 'det', ('a', 'DT'))
+for serving sugar
+
+tablespoon.n.02: a spoon larger than a dessert spoon; used for serving
+(('spoon', 'NN'), 'det', ('a', 'DT'))
+(('spoon', 'NN'), 'amod', ('larger', 'JJR'))
+(('larger', 'JJR'), 'nmod', ('spoon', 'NN'))
+(('spoon', 'NN'), 'case', ('than', 'IN'))
+(('spoon', 'NN'), 'det', ('a', 'DT'))
+(('spoon', 'NN'), 'compound', ('dessert', 'NN'))
+(('spoon', 'NN'), 'punct', (';', ':'))
+(('spoon', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('serving', 'VBG'))
+(('serving', 'VBG'), 'mark', ('for', 'IN'))
+for serving
+
+tea_maker.n.01: a covered spoon with perforations
+(('spoon', 'NN'), 'det', ('a', 'DT'))
+(('spoon', 'NN'), 'amod', ('covered', 'JJ'))
+(('spoon', 'NN'), 'nmod', ('perforations', 'NNS'))
+(('perforations', 'NNS'), 'case', ('with', 'IN'))
+
+teaspoon.n.02: a small spoon used for stirring tea or coffee; holds about one fluid dram
+(('spoon', 'NN'), 'det', ('a', 'DT'))
+(('spoon', 'NN'), 'amod', ('small', 'JJ'))
+(('spoon', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('stirring', 'VBG'))
+(('stirring', 'VBG'), 'mark', ('for', 'IN'))
+(('stirring', 'VBG'), 'dobj', ('tea', 'NN'))
+(('tea', 'NN'), 'cc', ('or', 'CC'))
+(('tea', 'NN'), 'conj', ('coffee', 'NN'))
+(('spoon', 'NN'), 'punct', (';', ':'))
+(('spoon', 'NN'), 'dep', ('holds', 'VBZ'))
+(('holds', 'VBZ'), 'dobj', ('dram', 'NN'))
+(('dram', 'NN'), 'nummod', ('one', 'CD'))
+(('one', 'CD'), 'advmod', ('about', 'IN'))
+(('dram', 'NN'), 'compound', ('fluid', 'NN'))
+for stirring tea or coffee
+
+wooden_spoon.n.02: a spoon made of wood
+(('spoon', 'NN'), 'det', ('a', 'DT'))
+(('spoon', 'NN'), 'acl', ('made', 'VBN'))
+(('made', 'VBN'), 'nmod', ('wood', 'NN'))
+(('wood', 'NN'), 'case', ('of', 'IN'))
+
+butter_knife.n.01: a small knife with a dull blade; for cutting or spreading butter
+(('knife', 'NN'), 'det', ('a', 'DT'))
+(('knife', 'NN'), 'amod', ('small', 'JJ'))
+(('knife', 'NN'), 'nmod', ('blade', 'NN'))
+(('blade', 'NN'), 'case', ('with', 'IN'))
+(('blade', 'NN'), 'det', ('a', 'DT'))
+(('blade', 'NN'), 'amod', ('dull', 'JJ'))
+(('knife', 'NN'), 'punct', (';', ':'))
+(('knife', 'NN'), 'acl', ('cutting', 'VBG'))
+(('cutting', 'VBG'), 'mark', ('for', 'IN'))
+(('cutting', 'VBG'), 'cc', ('or', 'CC'))
+(('cutting', 'VBG'), 'conj', ('spreading', 'VBG'))
+(('cutting', 'VBG'), 'dobj', ('butter', 'NN'))
+for cutting or spreading butter
+
+case_knife.n.01: a metal blade with a handle; used as cutlery
+(('blade', 'NN'), 'det', ('a', 'DT'))
+(('blade', 'NN'), 'compound', ('metal', 'NN'))
+(('blade', 'NN'), 'nmod', ('handle', 'VBP'))
+(('handle', 'VBP'), 'case', ('with', 'IN'))
+(('handle', 'VBP'), 'det', ('a', 'DT'))
+(('blade', 'NN'), 'punct', (';', ':'))
+(('blade', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'nmod', ('cutlery', 'NN'))
+(('cutlery', 'NN'), 'case', ('as', 'IN'))
+as cutlery
+
+fish_knife.n.01: a small table knife with a spatula blade used for eating fish
+(('knife', 'NN'), 'det', ('a', 'DT'))
+(('knife', 'NN'), 'amod', ('small', 'JJ'))
+(('knife', 'NN'), 'compound', ('table', 'NN'))
+(('knife', 'NN'), 'nmod', ('blade', 'NN'))
+(('blade', 'NN'), 'case', ('with', 'IN'))
+(('blade', 'NN'), 'det', ('a', 'DT'))
+(('blade', 'NN'), 'compound', ('spatula', 'NN'))
+(('blade', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('eating', 'VBG'))
+(('eating', 'VBG'), 'mark', ('for', 'IN'))
+(('eating', 'VBG'), 'dobj', ('fish', 'NN'))
+for eating fish
+
+steak_knife.n.01: a sharp table knife used in eating steak
+(('knife', 'NN'), 'det', ('a', 'DT'))
+(('knife', 'NN'), 'amod', ('sharp', 'JJ'))
+(('knife', 'NN'), 'compound', ('table', 'NN'))
+(('knife', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('eating', 'VBG'))
+(('eating', 'VBG'), 'mark', ('in', 'IN'))
+(('eating', 'VBG'), 'dobj', ('steak', 'NN'))
+in eating steak
+
+dessert_plate.n.01: a small plate on which dessert can be served
+(('plate', 'NN'), 'det', ('a', 'DT'))
+(('plate', 'NN'), 'amod', ('small', 'JJ'))
+(('plate', 'NN'), 'acl:relcl', ('served', 'VBN'))
+(('served', 'VBN'), 'nmod', ('which', 'WDT'))
+(('which', 'WDT'), 'case', ('on', 'IN'))
+(('served', 'VBN'), 'nsubjpass', ('dessert', 'NN'))
+(('served', 'VBN'), 'aux', ('can', 'MD'))
+(('served', 'VBN'), 'auxpass', ('be', 'VB'))
+
+dinner_plate.n.01: a plate from which a diner eats during the main course of a meal
+(('plate', 'NN'), 'det', ('a', 'DT'))
+(('plate', 'NN'), 'acl:relcl', ('eats', 'VBZ'))
+(('eats', 'VBZ'), 'nmod', ('which', 'WDT'))
+(('which', 'WDT'), 'case', ('from', 'IN'))
+(('eats', 'VBZ'), 'nsubj', ('diner', 'NN'))
+(('diner', 'NN'), 'det', ('a', 'DT'))
+(('eats', 'VBZ'), 'nmod', ('course', 'NN'))
+(('course', 'NN'), 'case', ('during', 'IN'))
+(('course', 'NN'), 'det', ('the', 'DT'))
+(('course', 'NN'), 'amod', ('main', 'JJ'))
+(('course', 'NN'), 'nmod', ('meal', 'NN'))
+(('meal', 'NN'), 'case', ('of', 'IN'))
+(('meal', 'NN'), 'det', ('a', 'DT'))
+
+paper_plate.n.01: a disposable plate made of cardboard
+(('plate', 'NN'), 'det', ('a', 'DT'))
+(('plate', 'NN'), 'amod', ('disposable', 'JJ'))
+(('plate', 'NN'), 'acl', ('made', 'VBN'))
+(('made', 'VBN'), 'nmod', ('cardboard', 'NN'))
+(('cardboard', 'NN'), 'case', ('of', 'IN'))
+
+salad_plate.n.01: a plate or bowl for individual servings of salad
+(('plate', 'NN'), 'det', ('a', 'DT'))
+(('plate', 'NN'), 'cc', ('or', 'CC'))
+(('plate', 'NN'), 'conj', ('bowl', 'NN'))
+(('plate', 'NN'), 'nmod', ('servings', 'NNS'))
+(('servings', 'NNS'), 'case', ('for', 'IN'))
+(('servings', 'NNS'), 'amod', ('individual', 'JJ'))
+(('servings', 'NNS'), 'nmod', ('salad', 'NN'))
+(('salad', 'NN'), 'case', ('of', 'IN'))
+for individual servings of salad
+
+soup_plate.n.01: a deep plate with a wide rim
+(('plate', 'NN'), 'det', ('a', 'DT'))
+(('plate', 'NN'), 'amod', ('deep', 'JJ'))
+(('plate', 'NN'), 'nmod', ('rim', 'NN'))
+(('rim', 'NN'), 'case', ('with', 'IN'))
+(('rim', 'NN'), 'det', ('a', 'DT'))
+(('rim', 'NN'), 'amod', ('wide', 'JJ'))
+
+steel_plate.n.01: a plate of steel
+(('plate', 'NN'), 'det', ('a', 'DT'))
+(('plate', 'NN'), 'nmod', ('steel', 'NN'))
+(('steel', 'NN'), 'case', ('of', 'IN'))
+
+demitasse.n.02: small coffee cup; for serving black coffee
+(('cup', 'NN'), 'amod', ('small', 'JJ'))
+(('cup', 'NN'), 'compound', ('coffee', 'NN'))
+(('cup', 'NN'), 'punct', (';', ':'))
+(('cup', 'NN'), 'acl', ('serving', 'VBG'))
+(('serving', 'VBG'), 'mark', ('for', 'IN'))
+(('serving', 'VBG'), 'dobj', ('coffee', 'NN'))
+(('coffee', 'NN'), 'amod', ('black', 'JJ'))
+for serving black coffee
+
+cereal_bowl.n.01: a bowl for holding breakfast cereal
+(('bowl', 'NN'), 'det', ('a', 'DT'))
+(('bowl', 'NN'), 'acl', ('holding', 'VBG'))
+(('holding', 'VBG'), 'mark', ('for', 'IN'))
+(('holding', 'VBG'), 'dobj', ('cereal', 'NN'))
+(('cereal', 'NN'), 'compound', ('breakfast', 'NN'))
+for holding breakfast cereal
+
+finger_bowl.n.01: small bowl for rinsing the fingers at table
+(('bowl', 'NN'), 'amod', ('small', 'JJ'))
+(('bowl', 'NN'), 'acl', ('rinsing', 'VBG'))
+(('rinsing', 'VBG'), 'mark', ('for', 'IN'))
+(('rinsing', 'VBG'), 'dobj', ('fingers', 'NNS'))
+(('fingers', 'NNS'), 'det', ('the', 'DT'))
+(('rinsing', 'VBG'), 'nmod', ('table', 'NN'))
+(('table', 'NN'), 'case', ('at', 'IN'))
+for rinsing the fingers at table
+
+mixing_bowl.n.01: bowl used with an electric mixer
+(('bowl', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'nmod', ('mixer', 'NN'))
+(('mixer', 'NN'), 'case', ('with', 'IN'))
+(('mixer', 'NN'), 'det', ('an', 'DT'))
+(('mixer', 'NN'), 'amod', ('electric', 'JJ'))
+with an electric mixer
+
+porringer.n.01: a shallow metal bowl (usually with a handle)
+(('bowl', 'NN'), 'det', ('a', 'DT'))
+(('bowl', 'NN'), 'amod', ('shallow', 'JJ'))
+(('bowl', 'NN'), 'compound', ('metal', 'NN'))
+(('bowl', 'NN'), 'appos', ('handle', 'VBP'))
+(('handle', 'VBP'), 'punct', ('-LRB-', '-LRB-'))
+(('handle', 'VBP'), 'advmod', ('usually', 'RB'))
+(('handle', 'VBP'), 'case', ('with', 'IN'))
+(('handle', 'VBP'), 'det', ('a', 'DT'))
+(('handle', 'VBP'), 'punct', ('-RRB-', '-RRB-'))
+
+punch_bowl.n.01: a large bowl for serving beverages; usually with a ladle
+(('bowl', 'NN'), 'det', ('a', 'DT'))
+(('bowl', 'NN'), 'amod', ('large', 'JJ'))
+(('bowl', 'NN'), 'acl', ('serving', 'VBG'))
+(('serving', 'VBG'), 'mark', ('for', 'IN'))
+(('serving', 'VBG'), 'dobj', ('beverages', 'NNS'))
+(('bowl', 'NN'), 'punct', (';', ':'))
+(('bowl', 'NN'), 'nmod', ('ladle', 'NN'))
+(('ladle', 'NN'), 'advmod', ('usually', 'RB'))
+(('ladle', 'NN'), 'case', ('with', 'IN'))
+(('ladle', 'NN'), 'det', ('a', 'DT'))
+for serving beverages
+
+salad_bowl.n.02: a large bowl for mixing and serving a salad
+(('bowl', 'NN'), 'det', ('a', 'DT'))
+(('bowl', 'NN'), 'amod', ('large', 'JJ'))
+(('bowl', 'NN'), 'acl', ('mixing', 'VBG'))
+(('mixing', 'VBG'), 'mark', ('for', 'IN'))
+(('mixing', 'VBG'), 'cc', ('and', 'CC'))
+(('mixing', 'VBG'), 'conj', ('serving', 'VBG'))
+(('mixing', 'VBG'), 'dobj', ('salad', 'NN'))
+(('salad', 'NN'), 'det', ('a', 'DT'))
+for mixing and serving a salad
+
+slop_basin.n.01: a bowl into which the dregs of teacups and coffee cups are emptied at the table
+(('bowl', 'NN'), 'det', ('a', 'DT'))
+(('bowl', 'NN'), 'acl:relcl', ('emptied', 'VBN'))
+(('emptied', 'VBN'), 'nmod', ('which', 'WDT'))
+(('which', 'WDT'), 'case', ('into', 'IN'))
+(('emptied', 'VBN'), 'nsubjpass', ('dregs', 'NNS'))
+(('dregs', 'NNS'), 'det', ('the', 'DT'))
+(('dregs', 'NNS'), 'nmod', ('teacups', 'NNS'))
+(('teacups', 'NNS'), 'case', ('of', 'IN'))
+(('teacups', 'NNS'), 'cc', ('and', 'CC'))
+(('teacups', 'NNS'), 'conj', ('cups', 'NNS'))
+(('cups', 'NNS'), 'compound', ('coffee', 'NN'))
+(('emptied', 'VBN'), 'auxpass', ('are', 'VBP'))
+(('emptied', 'VBN'), 'nmod', ('table', 'NN'))
+(('table', 'NN'), 'case', ('at', 'IN'))
+(('table', 'NN'), 'det', ('the', 'DT'))
+
+soup_bowl.n.01: a bowl for serving soup
+(('bowl', 'NN'), 'det', ('a', 'DT'))
+(('bowl', 'NN'), 'acl', ('serving', 'VBG'))
+(('serving', 'VBG'), 'mark', ('for', 'IN'))
+(('serving', 'VBG'), 'dobj', ('soup', 'NN'))
+for serving soup
+
+cocotte.n.02: a small casserole in which individual portions can be cooked and served
+(('casserole', 'NN'), 'det', ('a', 'DT'))
+(('casserole', 'NN'), 'amod', ('small', 'JJ'))
+(('casserole', 'NN'), 'acl:relcl', ('cooked', 'VBN'))
+(('cooked', 'VBN'), 'nmod', ('which', 'WDT'))
+(('which', 'WDT'), 'case', ('in', 'IN'))
+(('cooked', 'VBN'), 'nsubjpass', ('portions', 'NNS'))
+(('portions', 'NNS'), 'amod', ('individual', 'JJ'))
+(('cooked', 'VBN'), 'aux', ('can', 'MD'))
+(('cooked', 'VBN'), 'auxpass', ('be', 'VB'))
+(('cooked', 'VBN'), 'cc', ('and', 'CC'))
+(('cooked', 'VBN'), 'conj', ('served', 'VBN'))
+
+argyll.n.01: a covered gravy holder of silver or other metal containing a detachable central vessel for hot water to keep the gravy warm
+(('holder', 'NN'), 'det', ('a', 'DT'))
+(('holder', 'NN'), 'amod', ('covered', 'JJ'))
+(('holder', 'NN'), 'compound', ('gravy', 'NN'))
+(('holder', 'NN'), 'nmod', ('silver', 'NN'))
+(('silver', 'NN'), 'case', ('of', 'IN'))
+(('silver', 'NN'), 'cc', ('or', 'CC'))
+(('silver', 'NN'), 'conj', ('metal', 'NN'))
+(('metal', 'NN'), 'amod', ('other', 'JJ'))
+(('silver', 'NN'), 'acl', ('containing', 'VBG'))
+(('containing', 'VBG'), 'dobj', ('vessel', 'NN'))
+(('vessel', 'NN'), 'det', ('a', 'DT'))
+(('vessel', 'NN'), 'amod', ('detachable', 'JJ'))
+(('vessel', 'NN'), 'amod', ('central', 'JJ'))
+(('vessel', 'NN'), 'nmod', ('water', 'NN'))
+(('water', 'NN'), 'case', ('for', 'IN'))
+(('water', 'NN'), 'amod', ('hot', 'JJ'))
+(('holder', 'NN'), 'acl', ('keep', 'VB'))
+(('keep', 'VB'), 'mark', ('to', 'TO'))
+(('keep', 'VB'), 'xcomp', ('warm', 'JJ'))
+(('warm', 'JJ'), 'nsubj', ('gravy', 'NN'))
+(('gravy', 'NN'), 'det', ('the', 'DT'))
+for hot water
+
+tureen.n.01: large deep serving dish with a cover; for serving soups and stews
+(('dish', 'NN'), 'amod', ('large', 'JJ'))
+(('dish', 'NN'), 'amod', ('deep', 'JJ'))
+(('dish', 'NN'), 'amod', ('serving', 'VBG'))
+(('dish', 'NN'), 'nmod', ('cover', 'NN'))
+(('cover', 'NN'), 'case', ('with', 'IN'))
+(('cover', 'NN'), 'det', ('a', 'DT'))
+(('dish', 'NN'), 'punct', (';', ':'))
+(('dish', 'NN'), 'acl', ('serving', 'VBG'))
+(('serving', 'VBG'), 'mark', ('for', 'IN'))
+(('serving', 'VBG'), 'dobj', ('soups', 'NNS'))
+(('soups', 'NNS'), 'cc', ('and', 'CC'))
+(('soups', 'NNS'), 'conj', ('stews', 'NNS'))
+for serving soups and stews
+
+iced-tea_spoon.n.01: a teaspoon with a long handle
+(('teaspoon', 'NN'), 'det', ('a', 'DT'))
+(('teaspoon', 'NN'), 'nmod', ('handle', 'VB'))
+(('handle', 'VB'), 'case', ('with', 'IN'))
+(('handle', 'VB'), 'det', ('a', 'DT'))
+(('handle', 'VB'), 'amod', ('long', 'JJ'))
+

@@ -1,0 +1,851 @@
+cheese_cutter.n.01: a kitchen utensil (board or handle) with a wire for cutting cheese
+(('utensil', 'NN'), 'det', ('a', 'DT'))
+(('utensil', 'NN'), 'compound', ('kitchen', 'NN'))
+(('utensil', 'NN'), 'appos', ('board', 'NN'))
+(('board', 'NN'), 'punct', ('-LRB-', '-LRB-'))
+(('board', 'NN'), 'cc', ('or', 'CC'))
+(('board', 'NN'), 'conj', ('handle', 'VB'))
+(('board', 'NN'), 'punct', ('-RRB-', '-RRB-'))
+(('utensil', 'NN'), 'nmod', ('wire', 'NN'))
+(('wire', 'NN'), 'case', ('with', 'IN'))
+(('wire', 'NN'), 'det', ('a', 'DT'))
+(('wire', 'NN'), 'acl', ('cutting', 'VBG'))
+(('cutting', 'VBG'), 'mark', ('for', 'IN'))
+(('cutting', 'VBG'), 'dobj', ('cheese', 'NN'))
+for cutting cheese
+
+cookie_cutter.n.01: a kitchen utensil used to cut a sheet of cookie dough into desired shapes before baking
+(('utensil', 'NN'), 'det', ('a', 'DT'))
+(('utensil', 'NN'), 'compound', ('kitchen', 'NN'))
+(('utensil', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'xcomp', ('cut', 'VB'))
+(('cut', 'VB'), 'mark', ('to', 'TO'))
+(('cut', 'VB'), 'dobj', ('sheet', 'NN'))
+(('sheet', 'NN'), 'det', ('a', 'DT'))
+(('sheet', 'NN'), 'nmod', ('dough', 'NN'))
+(('dough', 'NN'), 'case', ('of', 'IN'))
+(('dough', 'NN'), 'compound', ('cookie', 'NN'))
+(('cut', 'VB'), 'nmod', ('shapes', 'NNS'))
+(('shapes', 'NNS'), 'case', ('into', 'IN'))
+(('shapes', 'NNS'), 'amod', ('desired', 'VBN'))
+(('cut', 'VB'), 'advcl', ('baking', 'VBG'))
+(('baking', 'VBG'), 'mark', ('before', 'IN'))
+to cut a sheet of cookie dough into desired shapes before baking
+
+cooking_utensil.n.01: a kitchen utensil made of material that does not melt easily; used for cooking
+(('utensil', 'NN'), 'det', ('a', 'DT'))
+(('utensil', 'NN'), 'compound', ('kitchen', 'NN'))
+(('utensil', 'NN'), 'acl', ('made', 'VBN'))
+(('made', 'VBN'), 'nmod', ('material', 'NN'))
+(('material', 'NN'), 'case', ('of', 'IN'))
+(('material', 'NN'), 'acl:relcl', ('melt', 'VB'))
+(('melt', 'VB'), 'nsubj', ('that', 'WDT'))
+(('melt', 'VB'), 'aux', ('does', 'VBZ'))
+(('melt', 'VB'), 'neg', ('not', 'RB'))
+(('melt', 'VB'), 'advmod', ('easily', 'RB'))
+(('utensil', 'NN'), 'punct', (';', ':'))
+(('utensil', 'NN'), 'dep', ('used', 'VBN'))
+(('used', 'VBN'), 'nmod', ('cooking', 'NN'))
+(('cooking', 'NN'), 'case', ('for', 'IN'))
+for cooking
+
+grater.n.01: utensil with sharp perforations for shredding foods (as vegetables or cheese)
+(('utensil', 'NN'), 'nmod', ('perforations', 'NNS'))
+(('perforations', 'NNS'), 'case', ('with', 'IN'))
+(('perforations', 'NNS'), 'amod', ('sharp', 'JJ'))
+(('perforations', 'NNS'), 'nmod', ('foods', 'NNS'))
+(('foods', 'NNS'), 'case', ('for', 'IN'))
+(('foods', 'NNS'), 'compound', ('shredding', 'NN'))
+(('perforations', 'NNS'), 'dep', ('vegetables', 'NNS'))
+(('vegetables', 'NNS'), 'punct', ('-LRB-', '-LRB-'))
+(('vegetables', 'NNS'), 'case', ('as', 'IN'))
+(('vegetables', 'NNS'), 'cc', ('or', 'CC'))
+(('vegetables', 'NNS'), 'conj', ('cheese', 'NN'))
+(('vegetables', 'NNS'), 'punct', ('-RRB-', '-RRB-'))
+for shredding foods
+
+kitchenware.n.01: hardware utensils for use in a kitchen
+(('utensils', 'NNS'), 'compound', ('hardware', 'NN'))
+(('utensils', 'NNS'), 'nmod', ('use', 'NN'))
+(('use', 'NN'), 'case', ('for', 'IN'))
+(('use', 'NN'), 'nmod', ('kitchen', 'NN'))
+(('kitchen', 'NN'), 'case', ('in', 'IN'))
+(('kitchen', 'NN'), 'det', ('a', 'DT'))
+for use in a kitchen
+
+masher.n.02: a kitchen utensil used for mashing (e.g. potatoes)
+(('utensil', 'NN'), 'det', ('a', 'DT'))
+(('utensil', 'NN'), 'compound', ('kitchen', 'NN'))
+(('utensil', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'nmod', ('mashing', 'NN'))
+(('mashing', 'NN'), 'case', ('for', 'IN'))
+(('mashing', 'NN'), 'dep', ('e.g', 'NN'))
+(('e.g', 'NN'), 'punct', ('-LRB-', '-LRB-'))
+(('utensil', 'NN'), 'punct', ('.', '.'))
+for mashing e.g -LRB-
+
+mincer.n.01: a kitchen utensil that cuts or chops food (especially meat) into small pieces
+(('utensil', 'NN'), 'det', ('a', 'DT'))
+(('utensil', 'NN'), 'compound', ('kitchen', 'NN'))
+(('utensil', 'NN'), 'acl:relcl', ('cuts', 'VBZ'))
+(('cuts', 'VBZ'), 'nsubj', ('that', 'WDT'))
+(('cuts', 'VBZ'), 'cc', ('or', 'CC'))
+(('cuts', 'VBZ'), 'conj', ('food', 'NN'))
+(('food', 'NN'), 'compound', ('chops', 'NNS'))
+(('food', 'NN'), 'appos', ('meat', 'NN'))
+(('meat', 'NN'), 'punct', ('-LRB-', '-LRB-'))
+(('meat', 'NN'), 'advmod', ('especially', 'RB'))
+(('meat', 'NN'), 'punct', ('-RRB-', '-RRB-'))
+(('cuts', 'VBZ'), 'nmod', ('pieces', 'NNS'))
+(('pieces', 'NNS'), 'case', ('into', 'IN'))
+(('pieces', 'NNS'), 'amod', ('small', 'JJ'))
+
+mixer.n.04: a kitchen utensil that is used for mixing foods
+(('utensil', 'NN'), 'det', ('a', 'DT'))
+(('utensil', 'NN'), 'compound', ('kitchen', 'NN'))
+(('utensil', 'NN'), 'acl:relcl', ('used', 'VBN'))
+(('used', 'VBN'), 'nsubjpass', ('that', 'WDT'))
+(('used', 'VBN'), 'auxpass', ('is', 'VBZ'))
+(('used', 'VBN'), 'advcl', ('mixing', 'VBG'))
+(('mixing', 'VBG'), 'mark', ('for', 'IN'))
+(('mixing', 'VBG'), 'dobj', ('foods', 'NNS'))
+for mixing foods
+
+ricer.n.01: a kitchen utensil used for ricing soft foods by extruding them through small holes
+(('utensil', 'NN'), 'det', ('a', 'DT'))
+(('utensil', 'NN'), 'compound', ('kitchen', 'NN'))
+(('utensil', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('ricing', 'VBG'))
+(('ricing', 'VBG'), 'mark', ('for', 'IN'))
+(('ricing', 'VBG'), 'dobj', ('foods', 'NNS'))
+(('foods', 'NNS'), 'amod', ('soft', 'JJ'))
+(('ricing', 'VBG'), 'advcl', ('extruding', 'VBG'))
+(('extruding', 'VBG'), 'mark', ('by', 'IN'))
+(('extruding', 'VBG'), 'dobj', ('them', 'PRP'))
+(('extruding', 'VBG'), 'nmod', ('holes', 'NNS'))
+(('holes', 'NNS'), 'case', ('through', 'IN'))
+(('holes', 'NNS'), 'amod', ('small', 'JJ'))
+for ricing soft foods by extruding them through small holes
+
+rolling_pin.n.01: utensil consisting of a cylinder (usually of wood) with a handle at each end; used to roll out dough
+(('utensil', 'NN'), 'acl', ('consisting', 'VBG'))
+(('consisting', 'VBG'), 'nmod', ('cylinder', 'NN'))
+(('cylinder', 'NN'), 'case', ('of', 'IN'))
+(('cylinder', 'NN'), 'det', ('a', 'DT'))
+(('cylinder', 'NN'), 'appos', ('wood', 'NN'))
+(('wood', 'NN'), 'punct', ('-LRB-', '-LRB-'))
+(('wood', 'NN'), 'advmod', ('usually', 'RB'))
+(('wood', 'NN'), 'case', ('of', 'IN'))
+(('wood', 'NN'), 'punct', ('-RRB-', '-RRB-'))
+(('consisting', 'VBG'), 'nmod', ('handle', 'VB'))
+(('handle', 'VB'), 'case', ('with', 'IN'))
+(('handle', 'VB'), 'det', ('a', 'DT'))
+(('handle', 'VB'), 'nmod', ('end', 'NN'))
+(('end', 'NN'), 'case', ('at', 'IN'))
+(('end', 'NN'), 'det', ('each', 'DT'))
+(('utensil', 'NN'), 'punct', (';', ':'))
+(('utensil', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'xcomp', ('roll', 'VB'))
+(('roll', 'VB'), 'mark', ('to', 'TO'))
+(('roll', 'VB'), 'compound:prt', ('out', 'RP'))
+(('roll', 'VB'), 'dobj', ('dough', 'NN'))
+to roll out dough
+
+seeder.n.03: a kitchen utensil that removes seeds from fruit
+(('utensil', 'NN'), 'det', ('a', 'DT'))
+(('utensil', 'NN'), 'compound', ('kitchen', 'NN'))
+(('utensil', 'NN'), 'acl:relcl', ('removes', 'VBZ'))
+(('removes', 'VBZ'), 'nsubj', ('that', 'WDT'))
+(('removes', 'VBZ'), 'dobj', ('seeds', 'NNS'))
+(('removes', 'VBZ'), 'nmod', ('fruit', 'NN'))
+(('fruit', 'NN'), 'case', ('from', 'IN'))
+
+squeezer.n.01: a kitchen utensil for squeezing juice from fruit
+(('utensil', 'NN'), 'det', ('a', 'DT'))
+(('utensil', 'NN'), 'compound', ('kitchen', 'NN'))
+(('utensil', 'NN'), 'acl', ('squeezing', 'VBG'))
+(('squeezing', 'VBG'), 'mark', ('for', 'IN'))
+(('squeezing', 'VBG'), 'dobj', ('juice', 'NN'))
+(('squeezing', 'VBG'), 'nmod', ('fruit', 'NN'))
+(('fruit', 'NN'), 'case', ('from', 'IN'))
+for squeezing juice from fruit
+
+tea_ball.n.01: a kitchen utensil consisting of a perforated metal ball for making tea
+(('utensil', 'NN'), 'det', ('a', 'DT'))
+(('utensil', 'NN'), 'compound', ('kitchen', 'NN'))
+(('utensil', 'NN'), 'acl', ('consisting', 'VBG'))
+(('consisting', 'VBG'), 'nmod', ('ball', 'NN'))
+(('ball', 'NN'), 'case', ('of', 'IN'))
+(('ball', 'NN'), 'det', ('a', 'DT'))
+(('ball', 'NN'), 'amod', ('perforated', 'JJ'))
+(('ball', 'NN'), 'compound', ('metal', 'NN'))
+(('ball', 'NN'), 'acl', ('making', 'VBG'))
+(('making', 'VBG'), 'mark', ('for', 'IN'))
+(('making', 'VBG'), 'dobj', ('tea', 'NN'))
+for making tea
+
+baster.n.03: a tube with a rubber bulb used to take up and release melted fat or gravy in order to moisten roasting meat
+(('melted', 'VBD'), 'nsubj', ('tube', 'NN'))
+(('tube', 'NN'), 'det', ('a', 'DT'))
+(('tube', 'NN'), 'nmod', ('bulb', 'NN'))
+(('bulb', 'NN'), 'case', ('with', 'IN'))
+(('bulb', 'NN'), 'det', ('a', 'DT'))
+(('bulb', 'NN'), 'compound', ('rubber', 'NN'))
+(('bulb', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'xcomp', ('take', 'VB'))
+(('take', 'VB'), 'mark', ('to', 'TO'))
+(('take', 'VB'), 'compound:prt', ('up', 'RP'))
+(('take', 'VB'), 'cc', ('and', 'CC'))
+(('take', 'VB'), 'conj', ('release', 'NN'))
+(('melted', 'VBD'), 'dobj', ('fat', 'JJ'))
+(('fat', 'JJ'), 'cc', ('or', 'CC'))
+(('fat', 'JJ'), 'conj', ('gravy', 'NN'))
+(('melted', 'VBD'), 'advcl', ('moisten', 'VB'))
+(('moisten', 'VB'), 'mark', ('in', 'IN'))
+(('in', 'IN'), 'mwe', ('order', 'NN'))
+(('moisten', 'VB'), 'mark', ('to', 'TO'))
+(('moisten', 'VB'), 'xcomp', ('roasting', 'VBG'))
+(('roasting', 'VBG'), 'dobj', ('meat', 'NN'))
+to take up and release
+
+chafing_dish.n.01: a metal pan over a heater; used to cook or to keep things warm at the table
+(('pan', 'NN'), 'det', ('a', 'DT'))
+(('pan', 'NN'), 'compound', ('metal', 'NN'))
+(('pan', 'NN'), 'nmod', ('heater', 'NN'))
+(('heater', 'NN'), 'case', ('over', 'IN'))
+(('heater', 'NN'), 'det', ('a', 'DT'))
+(('pan', 'NN'), 'punct', (';', ':'))
+(('pan', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'xcomp', ('cook', 'VB'))
+(('cook', 'VB'), 'mark', ('to', 'TO'))
+(('cook', 'VB'), 'cc', ('or', 'CC'))
+(('cook', 'VB'), 'conj', ('keep', 'VB'))
+(('keep', 'VB'), 'mark', ('to', 'TO'))
+(('keep', 'VB'), 'xcomp', ('warm', 'JJ'))
+(('warm', 'JJ'), 'nsubj', ('things', 'NNS'))
+(('keep', 'VB'), 'nmod', ('table', 'NN'))
+(('table', 'NN'), 'case', ('at', 'IN'))
+(('table', 'NN'), 'det', ('the', 'DT'))
+to cook or to keep warm things at the table
+
+cooker.n.01: a utensil for cooking
+(('utensil', 'NN'), 'det', ('a', 'DT'))
+(('utensil', 'NN'), 'nmod', ('cooking', 'NN'))
+(('cooking', 'NN'), 'case', ('for', 'IN'))
+for cooking
+
+cookie_sheet.n.01: a cooking utensil consisting of a flat rectangular metal sheet used for baking cookies or biscuits
+(('utensil', 'NN'), 'det', ('a', 'DT'))
+(('utensil', 'NN'), 'compound', ('cooking', 'NN'))
+(('utensil', 'NN'), 'acl', ('consisting', 'VBG'))
+(('consisting', 'VBG'), 'nmod', ('sheet', 'NN'))
+(('sheet', 'NN'), 'case', ('of', 'IN'))
+(('sheet', 'NN'), 'det', ('a', 'DT'))
+(('sheet', 'NN'), 'amod', ('flat', 'JJ'))
+(('sheet', 'NN'), 'amod', ('rectangular', 'JJ'))
+(('sheet', 'NN'), 'compound', ('metal', 'NN'))
+(('sheet', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'nmod', ('cookies', 'NNS'))
+(('cookies', 'NNS'), 'case', ('for', 'IN'))
+(('cookies', 'NNS'), 'amod', ('baking', 'VBG'))
+(('cookies', 'NNS'), 'cc', ('or', 'CC'))
+(('cookies', 'NNS'), 'conj', ('biscuits', 'NNS'))
+for baking cookies or biscuits
+
+enamelware.n.01: cooking utensil of enameled iron
+(('utensil', 'NN'), 'amod', ('cooking', 'JJ'))
+(('utensil', 'NN'), 'nmod', ('iron', 'NN'))
+(('iron', 'NN'), 'case', ('of', 'IN'))
+(('iron', 'NN'), 'amod', ('enameled', 'JJ'))
+
+grid.n.05: a cooking utensil of parallel metal bars; used to grill fish or meat
+(('utensil', 'NN'), 'det', ('a', 'DT'))
+(('utensil', 'NN'), 'compound', ('cooking', 'NN'))
+(('utensil', 'NN'), 'nmod', ('bars', 'NNS'))
+(('bars', 'NNS'), 'case', ('of', 'IN'))
+(('bars', 'NNS'), 'amod', ('parallel', 'JJ'))
+(('bars', 'NNS'), 'compound', ('metal', 'NN'))
+(('utensil', 'NN'), 'punct', (';', ':'))
+(('utensil', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'xcomp', ('grill', 'VB'))
+(('grill', 'VB'), 'mark', ('to', 'TO'))
+(('grill', 'VB'), 'dobj', ('fish', 'NN'))
+(('fish', 'NN'), 'cc', ('or', 'CC'))
+(('fish', 'NN'), 'conj', ('meat', 'NN'))
+to grill fish or meat
+
+griddle.n.01: cooking utensil consisting of a flat heated surface (as on top of a stove) on which food is cooked
+(('utensil', 'NN'), 'amod', ('cooking', 'JJ'))
+(('utensil', 'NN'), 'acl', ('consisting', 'VBG'))
+(('consisting', 'VBG'), 'nmod', ('surface', 'NN'))
+(('surface', 'NN'), 'case', ('of', 'IN'))
+(('surface', 'NN'), 'det', ('a', 'DT'))
+(('surface', 'NN'), 'amod', ('flat', 'JJ'))
+(('surface', 'NN'), 'amod', ('heated', 'JJ'))
+(('surface', 'NN'), 'nmod', ('top', 'NN'))
+(('top', 'NN'), 'punct', ('-LRB-', '-LRB-'))
+(('top', 'NN'), 'case', ('as', 'IN'))
+(('top', 'NN'), 'case', ('on', 'IN'))
+(('top', 'NN'), 'nmod', ('stove', 'NN'))
+(('stove', 'NN'), 'case', ('of', 'IN'))
+(('stove', 'NN'), 'det', ('a', 'DT'))
+(('top', 'NN'), 'punct', ('-RRB-', '-RRB-'))
+(('surface', 'NN'), 'acl:relcl', ('cooked', 'VBN'))
+(('cooked', 'VBN'), 'nmod', ('which', 'WDT'))
+(('which', 'WDT'), 'case', ('on', 'IN'))
+(('cooked', 'VBN'), 'nsubjpass', ('food', 'NN'))
+(('cooked', 'VBN'), 'auxpass', ('is', 'VBZ'))
+
+pan.n.01: cooking utensil consisting of a wide metal vessel
+(('utensil', 'NN'), 'amod', ('cooking', 'JJ'))
+(('utensil', 'NN'), 'acl', ('consisting', 'VBG'))
+(('consisting', 'VBG'), 'nmod', ('vessel', 'NN'))
+(('vessel', 'NN'), 'case', ('of', 'IN'))
+(('vessel', 'NN'), 'det', ('a', 'DT'))
+(('vessel', 'NN'), 'amod', ('wide', 'JJ'))
+(('vessel', 'NN'), 'compound', ('metal', 'NN'))
+
+poacher.n.02: a cooking vessel designed to poach food (such as fish or eggs)
+(('vessel', 'NN'), 'det', ('a', 'DT'))
+(('vessel', 'NN'), 'compound', ('cooking', 'NN'))
+(('vessel', 'NN'), 'acl', ('designed', 'VBN'))
+(('designed', 'VBN'), 'xcomp', ('poach', 'VB'))
+(('poach', 'VB'), 'mark', ('to', 'TO'))
+(('poach', 'VB'), 'dobj', ('food', 'NN'))
+(('food', 'NN'), 'nmod', ('fish', 'NN'))
+(('fish', 'NN'), 'punct', ('-LRB-', '-LRB-'))
+(('fish', 'NN'), 'case', ('such', 'JJ'))
+(('such', 'JJ'), 'mwe', ('as', 'IN'))
+(('fish', 'NN'), 'cc', ('or', 'CC'))
+(('fish', 'NN'), 'conj', ('eggs', 'NNS'))
+(('fish', 'NN'), 'punct', ('-RRB-', '-RRB-'))
+
+pot.n.01: metal or earthenware cooking vessel that is usually round and deep; often has a handle and lid
+(('has', 'VBZ'), 'nsubj', ('vessel', 'NN'))
+(('vessel', 'NN'), 'amod', ('metal', 'NN'))
+(('metal', 'NN'), 'cc', ('or', 'CC'))
+(('metal', 'NN'), 'conj', ('earthenware', 'JJ'))
+(('vessel', 'NN'), 'compound', ('cooking', 'NN'))
+(('vessel', 'NN'), 'acl:relcl', ('round', 'JJ'))
+(('round', 'JJ'), 'nsubj', ('that', 'WDT'))
+(('round', 'JJ'), 'cop', ('is', 'VBZ'))
+(('round', 'JJ'), 'advmod', ('usually', 'RB'))
+(('round', 'JJ'), 'cc', ('and', 'CC'))
+(('round', 'JJ'), 'conj', ('deep', 'JJ'))
+(('vessel', 'NN'), 'punct', (';', ':'))
+(('has', 'VBZ'), 'advmod', ('often', 'RB'))
+(('has', 'VBZ'), 'dobj', ('handle', 'VB'))
+(('handle', 'VB'), 'det', ('a', 'DT'))
+(('handle', 'VB'), 'cc', ('and', 'CC'))
+(('handle', 'VB'), 'conj', ('lid', 'NN'))
+
+skimmer.n.02: a cooking utensil used to skim fat from the surface of liquids
+(('utensil', 'NN'), 'det', ('a', 'DT'))
+(('utensil', 'NN'), 'compound', ('cooking', 'NN'))
+(('utensil', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'xcomp', ('skim', 'VB'))
+(('skim', 'VB'), 'mark', ('to', 'TO'))
+(('skim', 'VB'), 'dobj', ('fat', 'JJ'))
+(('skim', 'VB'), 'nmod', ('surface', 'NN'))
+(('surface', 'NN'), 'case', ('from', 'IN'))
+(('surface', 'NN'), 'det', ('the', 'DT'))
+(('surface', 'NN'), 'nmod', ('liquids', 'NNS'))
+(('liquids', 'NNS'), 'case', ('of', 'IN'))
+to skim fat from the surface of liquids
+
+steamer.n.02: a cooking utensil that can be used to cook food by steaming it
+(('utensil', 'NN'), 'det', ('a', 'DT'))
+(('utensil', 'NN'), 'compound', ('cooking', 'NN'))
+(('utensil', 'NN'), 'acl:relcl', ('used', 'VBN'))
+(('used', 'VBN'), 'nsubjpass', ('that', 'WDT'))
+(('used', 'VBN'), 'aux', ('can', 'MD'))
+(('used', 'VBN'), 'auxpass', ('be', 'VB'))
+(('used', 'VBN'), 'xcomp', ('cook', 'VB'))
+(('cook', 'VB'), 'mark', ('to', 'TO'))
+(('cook', 'VB'), 'dobj', ('food', 'NN'))
+(('cook', 'VB'), 'advcl', ('steaming', 'VBG'))
+(('steaming', 'VBG'), 'mark', ('by', 'IN'))
+(('steaming', 'VBG'), 'dobj', ('it', 'PRP'))
+to cook food by steaming it
+
+turner.n.08: cooking utensil having a flat flexible part and a long handle; used for turning or serving food
+(('utensil', 'NN'), 'amod', ('cooking', 'JJ'))
+(('utensil', 'NN'), 'acl', ('having', 'VBG'))
+(('having', 'VBG'), 'dobj', ('part', 'NN'))
+(('part', 'NN'), 'det', ('a', 'DT'))
+(('part', 'NN'), 'amod', ('flat', 'JJ'))
+(('part', 'NN'), 'amod', ('flexible', 'JJ'))
+(('part', 'NN'), 'cc', ('and', 'CC'))
+(('part', 'NN'), 'conj', ('handle', 'VB'))
+(('handle', 'VB'), 'det', ('a', 'DT'))
+(('handle', 'VB'), 'amod', ('long', 'JJ'))
+(('utensil', 'NN'), 'punct', (';', ':'))
+(('utensil', 'NN'), 'dep', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('turning', 'VBG'))
+(('turning', 'VBG'), 'mark', ('for', 'IN'))
+(('turning', 'VBG'), 'cc', ('or', 'CC'))
+(('turning', 'VBG'), 'conj', ('serving', 'VBG'))
+(('turning', 'VBG'), 'dobj', ('food', 'NN'))
+for turning or serving food
+
+blender.n.01: an electrically powered mixer with whirling blades that mix or chop or liquefy foods
+(('mixer', 'NN'), 'det', ('an', 'DT'))
+(('mixer', 'NN'), 'amod', ('powered', 'VBN'))
+(('powered', 'VBN'), 'advmod', ('electrically', 'RB'))
+(('mixer', 'NN'), 'nmod', ('blades', 'NNS'))
+(('blades', 'NNS'), 'case', ('with', 'IN'))
+(('blades', 'NNS'), 'amod', ('whirling', 'JJ'))
+(('blades', 'NNS'), 'acl:relcl', ('mix', 'VBP'))
+(('mix', 'VBP'), 'nsubj', ('that', 'WDT'))
+(('mix', 'VBP'), 'cc', ('or', 'CC'))
+(('mix', 'VBP'), 'conj', ('chop', 'VBP'))
+(('mix', 'VBP'), 'cc', ('or', 'CC'))
+(('mix', 'VBP'), 'conj', ('liquefy', 'VBP'))
+(('mix', 'VBP'), 'dobj', ('foods', 'NNS'))
+
+eggbeater.n.02: a mixer for beating eggs or whipping cream
+(('mixer', 'NN'), 'det', ('a', 'DT'))
+(('mixer', 'NN'), 'acl', ('beating', 'VBG'))
+(('beating', 'VBG'), 'mark', ('for', 'IN'))
+(('beating', 'VBG'), 'dobj', ('eggs', 'NNS'))
+(('eggs', 'NNS'), 'cc', ('or', 'CC'))
+(('eggs', 'NNS'), 'conj', ('cream', 'NN'))
+(('cream', 'NN'), 'amod', ('whipping', 'JJ'))
+for beating eggs or whipping cream
+
+electric_mixer.n.01: a food mixer powered by an electric motor
+(('mixer', 'NN'), 'det', ('a', 'DT'))
+(('mixer', 'NN'), 'compound', ('food', 'NN'))
+(('mixer', 'NN'), 'acl', ('powered', 'VBN'))
+(('powered', 'VBN'), 'nmod', ('motor', 'NN'))
+(('motor', 'NN'), 'case', ('by', 'IN'))
+(('motor', 'NN'), 'det', ('an', 'DT'))
+(('motor', 'NN'), 'amod', ('electric', 'JJ'))
+
+whisk.n.01: a mixer incorporating a coil of wires; used for whipping eggs or cream
+(('mixer', 'NN'), 'det', ('a', 'DT'))
+(('mixer', 'NN'), 'acl', ('incorporating', 'VBG'))
+(('incorporating', 'VBG'), 'dobj', ('coil', 'NN'))
+(('coil', 'NN'), 'det', ('a', 'DT'))
+(('coil', 'NN'), 'nmod', ('wires', 'NNS'))
+(('wires', 'NNS'), 'case', ('of', 'IN'))
+(('mixer', 'NN'), 'punct', (';', ':'))
+(('mixer', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'nmod', ('eggs', 'NNS'))
+(('eggs', 'NNS'), 'case', ('for', 'IN'))
+(('eggs', 'NNS'), 'amod', ('whipping', 'JJ'))
+(('eggs', 'NNS'), 'cc', ('or', 'CC'))
+(('eggs', 'NNS'), 'conj', ('cream', 'NN'))
+for whipping eggs or cream
+
+reamer.n.01: a squeezer with a conical ridged center that is used for squeezing juice from citrus fruit
+(('squeezer', 'NN'), 'det', ('a', 'DT'))
+(('squeezer', 'NN'), 'nmod', ('center', 'NN'))
+(('center', 'NN'), 'case', ('with', 'IN'))
+(('center', 'NN'), 'det', ('a', 'DT'))
+(('center', 'NN'), 'amod', ('conical', 'JJ'))
+(('center', 'NN'), 'amod', ('ridged', 'JJ'))
+(('center', 'NN'), 'acl:relcl', ('used', 'VBN'))
+(('used', 'VBN'), 'nsubjpass', ('that', 'WDT'))
+(('used', 'VBN'), 'auxpass', ('is', 'VBZ'))
+(('used', 'VBN'), 'advcl', ('squeezing', 'VBG'))
+(('squeezing', 'VBG'), 'mark', ('for', 'IN'))
+(('squeezing', 'VBG'), 'dobj', ('juice', 'NN'))
+(('squeezing', 'VBG'), 'nmod', ('fruit', 'NN'))
+(('fruit', 'NN'), 'case', ('from', 'IN'))
+(('fruit', 'NN'), 'compound', ('citrus', 'NN'))
+for squeezing juice from citrus fruit
+
+crock_pot.n.01: an electric cooker that maintains a relatively low temperature
+(('cooker', 'NN'), 'det', ('an', 'DT'))
+(('cooker', 'NN'), 'amod', ('electric', 'JJ'))
+(('cooker', 'NN'), 'acl:relcl', ('maintains', 'VBZ'))
+(('maintains', 'VBZ'), 'nsubj', ('that', 'WDT'))
+(('maintains', 'VBZ'), 'dobj', ('temperature', 'NN'))
+(('temperature', 'NN'), 'det', ('a', 'DT'))
+(('temperature', 'NN'), 'amod', ('low', 'JJ'))
+(('low', 'JJ'), 'advmod', ('relatively', 'RB'))
+
+popper.n.03: a container for cooking popcorn
+(('container', 'NN'), 'det', ('a', 'DT'))
+(('container', 'NN'), 'nmod', ('popcorn', 'NN'))
+(('popcorn', 'NN'), 'case', ('for', 'IN'))
+(('popcorn', 'NN'), 'compound', ('cooking', 'NN'))
+for cooking popcorn
+
+cloisonne.n.01: enamelware in which colored areas are separated by thin metal strips
+(('enamelware', 'NN'), 'acl:relcl', ('separated', 'VBN'))
+(('separated', 'VBN'), 'nmod', ('which', 'WDT'))
+(('which', 'WDT'), 'case', ('in', 'IN'))
+(('separated', 'VBN'), 'nsubjpass', ('areas', 'NNS'))
+(('areas', 'NNS'), 'amod', ('colored', 'VBN'))
+(('separated', 'VBN'), 'auxpass', ('are', 'VBP'))
+(('separated', 'VBN'), 'nmod', ('strips', 'NNS'))
+(('strips', 'NNS'), 'case', ('by', 'IN'))
+(('strips', 'NNS'), 'amod', ('thin', 'JJ'))
+(('strips', 'NNS'), 'compound', ('metal', 'NN'))
+
+graniteware.n.01: a kind of stone-grey enamelware
+(('kind', 'NN'), 'det', ('a', 'DT'))
+(('kind', 'NN'), 'nmod', ('enamelware', 'NN'))
+(('enamelware', 'NN'), 'case', ('of', 'IN'))
+(('enamelware', 'NN'), 'amod', ('stone-grey', 'JJ'))
+
+dripping_pan.n.01: pan for catching drippings under roasting meat
+(('pan', 'NN'), 'acl', ('catching', 'VBG'))
+(('catching', 'VBG'), 'mark', ('for', 'IN'))
+(('catching', 'VBG'), 'dobj', ('drippings', 'NNS'))
+(('catching', 'VBG'), 'advcl', ('roasting', 'VBG'))
+(('roasting', 'VBG'), 'mark', ('under', 'IN'))
+(('roasting', 'VBG'), 'dobj', ('meat', 'NN'))
+for catching drippings under roasting meat
+
+frying_pan.n.01: a pan used for frying foods
+(('pan', 'NN'), 'det', ('a', 'DT'))
+(('pan', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'nmod', ('foods', 'NNS'))
+(('foods', 'NNS'), 'case', ('for', 'IN'))
+(('foods', 'NNS'), 'amod', ('frying', 'JJ'))
+for frying foods
+
+omelet_pan.n.01: pan for cooking omelets
+(('pan', 'NN'), 'nmod', ('omelets', 'NNS'))
+(('omelets', 'NNS'), 'case', ('for', 'IN'))
+(('omelets', 'NNS'), 'compound', ('cooking', 'NN'))
+for cooking omelets
+
+patty-pan.n.01: a pan for cooking patties or pasties
+(('pan', 'NN'), 'det', ('a', 'DT'))
+(('pan', 'NN'), 'nmod', ('patties', 'NNS'))
+(('patties', 'NNS'), 'case', ('for', 'IN'))
+(('patties', 'NNS'), 'compound', ('cooking', 'NN'))
+(('patties', 'NNS'), 'cc', ('or', 'CC'))
+(('patties', 'NNS'), 'conj', ('pasties', 'NNS'))
+for cooking patties or pasties
+
+roaster.n.04: a special cooking pan for roasting
+(('pan', 'NN'), 'det', ('a', 'DT'))
+(('pan', 'NN'), 'amod', ('special', 'JJ'))
+(('pan', 'NN'), 'compound', ('cooking', 'NN'))
+(('pan', 'NN'), 'acl', ('roasting', 'VBG'))
+(('roasting', 'VBG'), 'mark', ('for', 'IN'))
+for roasting
+
+saucepan.n.01: a deep pan with a handle; used for stewing or boiling
+(('pan', 'NN'), 'det', ('a', 'DT'))
+(('pan', 'NN'), 'amod', ('deep', 'JJ'))
+(('pan', 'NN'), 'nmod', ('handle', 'VBP'))
+(('handle', 'VBP'), 'case', ('with', 'IN'))
+(('handle', 'VBP'), 'det', ('a', 'DT'))
+(('pan', 'NN'), 'punct', (';', ':'))
+(('pan', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('stewing', 'VBG'))
+(('stewing', 'VBG'), 'mark', ('for', 'IN'))
+(('stewing', 'VBG'), 'cc', ('or', 'CC'))
+(('stewing', 'VBG'), 'conj', ('boiling', 'VBG'))
+for stewing or boiling
+
+wok.n.01: pan with a convex bottom; used for frying in Chinese cooking
+(('pan', 'NN'), 'nmod', ('bottom', 'NN'))
+(('bottom', 'NN'), 'case', ('with', 'IN'))
+(('bottom', 'NN'), 'det', ('a', 'DT'))
+(('bottom', 'NN'), 'compound', ('convex', 'NN'))
+(('pan', 'NN'), 'punct', (';', ':'))
+(('pan', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('frying', 'VBG'))
+(('frying', 'VBG'), 'mark', ('for', 'IN'))
+(('frying', 'VBG'), 'nmod', ('cooking', 'NN'))
+(('cooking', 'NN'), 'case', ('in', 'IN'))
+(('cooking', 'NN'), 'amod', ('Chinese', 'JJ'))
+for frying in Chinese cooking
+
+caldron.n.01: a very large pot that is used for boiling
+(('pot', 'NN'), 'det', ('a', 'DT'))
+(('pot', 'NN'), 'amod', ('large', 'JJ'))
+(('large', 'JJ'), 'advmod', ('very', 'RB'))
+(('pot', 'NN'), 'acl:relcl', ('used', 'VBN'))
+(('used', 'VBN'), 'nsubjpass', ('that', 'WDT'))
+(('used', 'VBN'), 'auxpass', ('is', 'VBZ'))
+(('used', 'VBN'), 'advcl', ('boiling', 'VBG'))
+(('boiling', 'VBG'), 'mark', ('for', 'IN'))
+for boiling
+
+coffeepot.n.01: tall pot in which coffee is brewed
+(('pot', 'NN'), 'amod', ('tall', 'JJ'))
+(('pot', 'NN'), 'acl:relcl', ('brewed', 'VBN'))
+(('brewed', 'VBN'), 'nmod', ('which', 'WDT'))
+(('which', 'WDT'), 'case', ('in', 'IN'))
+(('brewed', 'VBN'), 'nsubjpass', ('coffee', 'NN'))
+(('brewed', 'VBN'), 'auxpass', ('is', 'VBZ'))
+
+dixie.n.02: a large metal pot (12 gallon camp kettle) for cooking; used in military camps
+(('pot', 'NN'), 'det', ('a', 'DT'))
+(('pot', 'NN'), 'amod', ('large', 'JJ'))
+(('pot', 'NN'), 'compound', ('metal', 'NN'))
+(('pot', 'NN'), 'appos', ('kettle', 'NN'))
+(('kettle', 'NN'), 'punct', ('-LRB-', '-LRB-'))
+(('kettle', 'NN'), 'amod', ('gallon', 'NN'))
+(('gallon', 'NN'), 'compound', ('12', 'CD'))
+(('kettle', 'NN'), 'compound', ('camp', 'NN'))
+(('kettle', 'NN'), 'punct', ('-RRB-', '-RRB-'))
+(('pot', 'NN'), 'nmod', ('cooking', 'NN'))
+(('cooking', 'NN'), 'case', ('for', 'IN'))
+(('pot', 'NN'), 'punct', (';', ':'))
+(('pot', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'nmod', ('camps', 'NNS'))
+(('camps', 'NNS'), 'case', ('in', 'IN'))
+(('camps', 'NNS'), 'amod', ('military', 'JJ'))
+in military camps
+
+dutch_oven.n.02: iron or earthenware cooking pot; used for stews
+(('iron', 'NN'), 'cc', ('or', 'CC'))
+(('iron', 'NN'), 'conj', ('earthenware', 'JJ'))
+(('iron', 'NN'), 'dep', ('pot', 'NN'))
+(('pot', 'NN'), 'compound', ('cooking', 'NN'))
+(('iron', 'NN'), 'punct', (';', ':'))
+(('iron', 'NN'), 'dep', ('used', 'VBN'))
+(('used', 'VBN'), 'nmod', ('stews', 'NNS'))
+(('stews', 'NNS'), 'case', ('for', 'IN'))
+for stews
+
+kettle.n.01: a metal pot for stewing or boiling; usually has a lid
+(('pot', 'NN'), 'det', ('a', 'DT'))
+(('pot', 'NN'), 'compound', ('metal', 'NN'))
+(('pot', 'NN'), 'nmod', ('stewing', 'VBG'))
+(('stewing', 'VBG'), 'case', ('for', 'IN'))
+(('stewing', 'VBG'), 'cc', ('or', 'CC'))
+(('stewing', 'VBG'), 'conj', ('boiling', 'VBG'))
+(('pot', 'NN'), 'punct', (';', ':'))
+(('pot', 'NN'), 'dep', ('has', 'VBZ'))
+(('has', 'VBZ'), 'advmod', ('usually', 'RB'))
+(('has', 'VBZ'), 'dobj', ('lid', 'NN'))
+(('lid', 'NN'), 'det', ('a', 'DT'))
+for stewing or boiling
+
+marmite.n.02: a large pot especially one with legs used e.g. for cooking soup
+(('pot', 'NN'), 'det', ('a', 'DT'))
+(('pot', 'NN'), 'amod', ('large', 'JJ'))
+(('pot', 'NN'), 'dep', ('one', 'CD'))
+(('one', 'CD'), 'advmod', ('especially', 'RB'))
+(('one', 'CD'), 'nmod', ('legs', 'NNS'))
+(('legs', 'NNS'), 'case', ('with', 'IN'))
+(('legs', 'NNS'), 'dep', ('e.g', 'NN'))
+(('e.g', 'NN'), 'amod', ('used', 'VBN'))
+(('pot', 'NN'), 'punct', ('.', '.'))
+
+pottle.n.01: a pot that holds 2 quarts
+(('pot', 'NN'), 'det', ('a', 'DT'))
+(('pot', 'NN'), 'acl:relcl', ('holds', 'VBZ'))
+(('holds', 'VBZ'), 'nsubj', ('that', 'WDT'))
+(('holds', 'VBZ'), 'dobj', ('quarts', 'NNS'))
+(('quarts', 'NNS'), 'nummod', ('2', 'CD'))
+
+saucepot.n.01: a cooking pot that has handles on either side and tight fitting lid; used for stewing or boiling
+(('pot', 'NN'), 'det', ('a', 'DT'))
+(('pot', 'NN'), 'compound', ('cooking', 'NN'))
+(('pot', 'NN'), 'acl:relcl', ('handles', 'VBZ'))
+(('handles', 'VBZ'), 'nsubj', ('that', 'WDT'))
+(('handles', 'VBZ'), 'aux', ('has', 'VBZ'))
+(('handles', 'VBZ'), 'nmod', ('side', 'NN'))
+(('side', 'NN'), 'case', ('on', 'IN'))
+(('side', 'NN'), 'cc:preconj', ('either', 'DT'))
+(('side', 'NN'), 'cc', ('and', 'CC'))
+(('side', 'NN'), 'conj', ('lid', 'NN'))
+(('lid', 'NN'), 'amod', ('tight', 'JJ'))
+(('lid', 'NN'), 'amod', ('fitting', 'JJ'))
+(('pot', 'NN'), 'punct', (';', ':'))
+(('pot', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('stewing', 'VBG'))
+(('stewing', 'VBG'), 'mark', ('for', 'IN'))
+(('stewing', 'VBG'), 'cc', ('or', 'CC'))
+(('stewing', 'VBG'), 'conj', ('boiling', 'VBG'))
+for stewing or boiling
+
+stockpot.n.01: a pot used for preparing soup stock
+(('pot', 'NN'), 'det', ('a', 'DT'))
+(('pot', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('preparing', 'VBG'))
+(('preparing', 'VBG'), 'mark', ('for', 'IN'))
+(('preparing', 'VBG'), 'dobj', ('stock', 'NN'))
+(('stock', 'NN'), 'compound', ('soup', 'NN'))
+for preparing soup stock
+
+teapot.n.01: pot for brewing tea; usually has a spout and handle
+(('pot', 'NN'), 'nmod', ('tea', 'NN'))
+(('tea', 'NN'), 'case', ('for', 'IN'))
+(('tea', 'NN'), 'compound', ('brewing', 'NN'))
+(('pot', 'NN'), 'punct', (';', ':'))
+(('pot', 'NN'), 'dep', ('has', 'VBZ'))
+(('has', 'VBZ'), 'advmod', ('usually', 'RB'))
+(('has', 'VBZ'), 'dobj', ('spout', 'VB'))
+(('spout', 'VB'), 'det', ('a', 'DT'))
+(('has', 'VBZ'), 'cc', ('and', 'CC'))
+(('has', 'VBZ'), 'conj', ('handle', 'VB'))
+for brewing tea
+
+urn.n.02: a large pot for making coffee or tea
+(('pot', 'NN'), 'det', ('a', 'DT'))
+(('pot', 'NN'), 'amod', ('large', 'JJ'))
+(('pot', 'NN'), 'acl', ('making', 'VBG'))
+(('making', 'VBG'), 'mark', ('for', 'IN'))
+(('making', 'VBG'), 'dobj', ('coffee', 'NN'))
+(('coffee', 'NN'), 'cc', ('or', 'CC'))
+(('coffee', 'NN'), 'conj', ('tea', 'NN'))
+for making coffee or tea
+
+fish_slice.n.01: a food turner with a broad blade used for turning or serving fish or other food that is cooked in a frying pan
+(('turner', 'NN'), 'det', ('a', 'DT'))
+(('turner', 'NN'), 'compound', ('food', 'NN'))
+(('turner', 'NN'), 'nmod', ('blade', 'NN'))
+(('blade', 'NN'), 'case', ('with', 'IN'))
+(('blade', 'NN'), 'det', ('a', 'DT'))
+(('blade', 'NN'), 'amod', ('broad', 'JJ'))
+(('blade', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('turning', 'VBG'))
+(('turning', 'VBG'), 'mark', ('for', 'IN'))
+(('turning', 'VBG'), 'cc', ('or', 'CC'))
+(('turning', 'VBG'), 'conj', ('serving', 'VBG'))
+(('turning', 'VBG'), 'dobj', ('fish', 'NN'))
+(('fish', 'NN'), 'cc', ('or', 'CC'))
+(('fish', 'NN'), 'conj', ('food', 'NN'))
+(('food', 'NN'), 'amod', ('other', 'JJ'))
+(('fish', 'NN'), 'acl:relcl', ('cooked', 'VBN'))
+(('cooked', 'VBN'), 'nsubjpass', ('that', 'WDT'))
+(('cooked', 'VBN'), 'auxpass', ('is', 'VBZ'))
+(('cooked', 'VBN'), 'nmod', ('pan', 'NN'))
+(('pan', 'NN'), 'case', ('in', 'IN'))
+(('pan', 'NN'), 'det', ('a', 'DT'))
+(('pan', 'NN'), 'amod', ('frying', 'JJ'))
+for turning or serving fish or other food cooked that is in a frying pan
+
+pancake_turner.n.01: turner for serving or turning pancakes
+(('turner', 'NN'), 'acl', ('serving', 'VBG'))
+(('serving', 'VBG'), 'mark', ('for', 'IN'))
+(('serving', 'VBG'), 'cc', ('or', 'CC'))
+(('serving', 'VBG'), 'conj', ('turning', 'VBG'))
+(('serving', 'VBG'), 'dobj', ('pancakes', 'NNS'))
+for serving or turning pancakes
+
+spatula.n.01: a turner with a narrow flexible blade
+(('turner', 'NN'), 'det', ('a', 'DT'))
+(('turner', 'NN'), 'nmod', ('blade', 'NN'))
+(('blade', 'NN'), 'case', ('with', 'IN'))
+(('blade', 'NN'), 'det', ('a', 'DT'))
+(('blade', 'NN'), 'amod', ('narrow', 'JJ'))
+(('blade', 'NN'), 'amod', ('flexible', 'JJ'))
+
+electric_frying_pan.n.01: a frying pan heated by electricity
+(('pan', 'NN'), 'det', ('a', 'DT'))
+(('pan', 'NN'), 'amod', ('frying', 'JJ'))
+(('pan', 'NN'), 'acl', ('heated', 'VBN'))
+(('heated', 'VBN'), 'nmod', ('electricity', 'NN'))
+(('electricity', 'NN'), 'case', ('by', 'IN'))
+
+spider.n.03: a skillet made of cast iron
+(('skillet', 'NN'), 'det', ('a', 'DT'))
+(('skillet', 'NN'), 'acl', ('made', 'VBN'))
+(('made', 'VBN'), 'nmod', ('iron', 'NN'))
+(('iron', 'NN'), 'case', ('of', 'IN'))
+(('iron', 'NN'), 'compound', ('cast', 'NN'))
+
+double_boiler.n.01: two saucepans, one fitting inside the other
+(('saucepans', 'NNS'), 'nummod', ('two', 'CD'))
+(('saucepans', 'NNS'), 'punct', (',', ','))
+(('saucepans', 'NNS'), 'appos', ('one', 'CD'))
+(('one', 'CD'), 'advmod', ('fitting', 'JJ'))
+(('fitting', 'JJ'), 'nmod', ('other', 'JJ'))
+(('other', 'JJ'), 'case', ('inside', 'IN'))
+(('other', 'JJ'), 'det', ('the', 'DT'))
+
+stewing_pan.n.01: a saucepan used for stewing
+(('saucepan', 'NN'), 'det', ('a', 'DT'))
+(('saucepan', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('stewing', 'VBG'))
+(('stewing', 'VBG'), 'mark', ('for', 'IN'))
+for stewing
+
+drip_pot.n.01: a coffeepot for making drip coffee
+(('coffeepot', 'NN'), 'det', ('a', 'DT'))
+(('coffeepot', 'NN'), 'acl', ('making', 'VBG'))
+(('making', 'VBG'), 'mark', ('for', 'IN'))
+(('making', 'VBG'), 'dobj', ('coffee', 'NN'))
+(('coffee', 'NN'), 'compound', ('drip', 'NN'))
+for making drip coffee
+
+percolator.n.01: a coffeepot in which boiling water ascends through a central tube and filters back down through a basket of ground coffee beans
+(('coffeepot', 'NN'), 'det', ('a', 'DT'))
+(('coffeepot', 'NN'), 'acl:relcl', ('ascends', 'VBZ'))
+(('ascends', 'VBZ'), 'nmod', ('which', 'WDT'))
+(('which', 'WDT'), 'case', ('in', 'IN'))
+(('ascends', 'VBZ'), 'nsubj', ('water', 'NN'))
+(('water', 'NN'), 'amod', ('boiling', 'JJ'))
+(('ascends', 'VBZ'), 'nmod', ('tube', 'NN'))
+(('tube', 'NN'), 'case', ('through', 'IN'))
+(('tube', 'NN'), 'det', ('a', 'DT'))
+(('tube', 'NN'), 'amod', ('central', 'JJ'))
+(('tube', 'NN'), 'cc', ('and', 'CC'))
+(('tube', 'NN'), 'conj', ('filters', 'NNS'))
+(('ascends', 'VBZ'), 'advmod', ('down', 'RB'))
+(('down', 'RB'), 'advmod', ('back', 'RB'))
+(('ascends', 'VBZ'), 'nmod', ('basket', 'NN'))
+(('basket', 'NN'), 'case', ('through', 'IN'))
+(('basket', 'NN'), 'det', ('a', 'DT'))
+(('basket', 'NN'), 'nmod', ('beans', 'NNS'))
+(('beans', 'NNS'), 'case', ('of', 'IN'))
+(('beans', 'NNS'), 'compound', ('ground', 'NN'))
+(('beans', 'NNS'), 'compound', ('coffee', 'NN'))
+
+teakettle.n.01: kettle for boiling water to make tea
+(('kettle', 'NN'), 'acl', ('boiling', 'VBG'))
+(('boiling', 'VBG'), 'mark', ('for', 'IN'))
+(('boiling', 'VBG'), 'dobj', ('water', 'NN'))
+(('boiling', 'VBG'), 'advcl', ('make', 'VB'))
+(('make', 'VB'), 'mark', ('to', 'TO'))
+(('make', 'VB'), 'dobj', ('tea', 'NN'))
+for boiling water to make tea
+
+coffee_urn.n.01: an urn in which coffee is made and kept hot
+(('hot', 'JJ'), 'nsubj', ('urn', 'NN'))
+(('urn', 'NN'), 'det', ('an', 'DT'))
+(('urn', 'NN'), 'acl:relcl', ('made', 'VBN'))
+(('made', 'VBN'), 'nmod', ('which', 'WDT'))
+(('which', 'WDT'), 'case', ('in', 'IN'))
+(('made', 'VBN'), 'nsubjpass', ('coffee', 'NN'))
+(('made', 'VBN'), 'auxpass', ('is', 'VBZ'))
+(('made', 'VBN'), 'cc', ('and', 'CC'))
+(('made', 'VBN'), 'conj', ('kept', 'VBN'))
+
+samovar.n.01: a metal urn with a spigot at the base; used in Russia to boil water for tea
+(('urn', 'NN'), 'det', ('a', 'DT'))
+(('urn', 'NN'), 'compound', ('metal', 'NN'))
+(('urn', 'NN'), 'nmod', ('spigot', 'NN'))
+(('spigot', 'NN'), 'case', ('with', 'IN'))
+(('spigot', 'NN'), 'det', ('a', 'DT'))
+(('spigot', 'NN'), 'nmod', ('base', 'NN'))
+(('base', 'NN'), 'case', ('at', 'IN'))
+(('base', 'NN'), 'det', ('the', 'DT'))
+(('urn', 'NN'), 'punct', (';', ':'))
+(('urn', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'nmod', ('Russia', 'NNP'))
+(('Russia', 'NNP'), 'case', ('in', 'IN'))
+(('used', 'VBN'), 'xcomp', ('boil', 'VB'))
+(('boil', 'VB'), 'mark', ('to', 'TO'))
+(('boil', 'VB'), 'dobj', ('water', 'NN'))
+(('boil', 'VB'), 'nmod', ('tea', 'NN'))
+(('tea', 'NN'), 'case', ('for', 'IN'))
+in Russia to boil water for tea
+
+tea_urn.n.01: an urn in which tea is brewed and from which it is served
+(('urn', 'NN'), 'det', ('an', 'DT'))
+(('urn', 'NN'), 'acl:relcl', ('brewed', 'VBN'))
+(('brewed', 'VBN'), 'nmod', ('which', 'WDT'))
+(('which', 'WDT'), 'case', ('in', 'IN'))
+(('brewed', 'VBN'), 'nsubjpass', ('tea', 'NN'))
+(('brewed', 'VBN'), 'auxpass', ('is', 'VBZ'))
+(('brewed', 'VBN'), 'cc', ('and', 'CC'))
+(('brewed', 'VBN'), 'conj', ('served', 'VBN'))
+(('served', 'VBN'), 'nmod', ('which', 'WDT'))
+(('which', 'WDT'), 'case', ('from', 'IN'))
+(('served', 'VBN'), 'nsubjpass', ('it', 'PRP'))
+(('served', 'VBN'), 'auxpass', ('is', 'VBZ'))
+

@@ -1,0 +1,236 @@
+chalk.n.04: a piece of calcite or a similar substance, usually in the shape of a crayon, that is used to write or draw on blackboards or other flat surfaces
+(('piece', 'NN'), 'det', ('a', 'DT'))
+(('piece', 'NN'), 'nmod', ('calcite', 'NN'))
+(('calcite', 'NN'), 'case', ('of', 'IN'))
+(('calcite', 'NN'), 'cc', ('or', 'CC'))
+(('calcite', 'NN'), 'conj', ('substance', 'NN'))
+(('substance', 'NN'), 'det', ('a', 'DT'))
+(('substance', 'NN'), 'amod', ('similar', 'JJ'))
+(('piece', 'NN'), 'punct', (',', ','))
+(('piece', 'NN'), 'nmod', ('shape', 'NN'))
+(('shape', 'NN'), 'advmod', ('usually', 'RB'))
+(('shape', 'NN'), 'case', ('in', 'IN'))
+(('shape', 'NN'), 'det', ('the', 'DT'))
+(('shape', 'NN'), 'nmod', ('crayon', 'NN'))
+(('crayon', 'NN'), 'case', ('of', 'IN'))
+(('crayon', 'NN'), 'det', ('a', 'DT'))
+(('piece', 'NN'), 'punct', (',', ','))
+(('piece', 'NN'), 'acl:relcl', ('used', 'VBN'))
+(('used', 'VBN'), 'nsubjpass', ('that', 'WDT'))
+(('used', 'VBN'), 'auxpass', ('is', 'VBZ'))
+(('used', 'VBN'), 'xcomp', ('write', 'VB'))
+(('write', 'VB'), 'mark', ('to', 'TO'))
+(('write', 'VB'), 'cc', ('or', 'CC'))
+(('write', 'VB'), 'conj', ('draw', 'VB'))
+(('write', 'VB'), 'nmod', ('blackboards', 'NNS'))
+(('blackboards', 'NNS'), 'case', ('on', 'IN'))
+(('blackboards', 'NNS'), 'cc', ('or', 'CC'))
+(('blackboards', 'NNS'), 'conj', ('surfaces', 'NNS'))
+(('surfaces', 'NNS'), 'amod', ('other', 'JJ'))
+(('surfaces', 'NNS'), 'amod', ('flat', 'JJ'))
+to write or draw on blackboards or other flat surfaces
+
+charcoal.n.02: a stick of black carbon material used for drawing
+(('stick', 'NN'), 'det', ('a', 'DT'))
+(('stick', 'NN'), 'nmod', ('material', 'NN'))
+(('material', 'NN'), 'case', ('of', 'IN'))
+(('material', 'NN'), 'amod', ('black', 'JJ'))
+(('material', 'NN'), 'compound', ('carbon', 'NN'))
+(('stick', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('drawing', 'VBG'))
+(('drawing', 'VBG'), 'mark', ('for', 'IN'))
+for drawing
+
+cyclostyle.n.01: a writing implement with a small toothed wheel that cuts small holes in a stencil
+(('implement', 'VB'), 'nsubj', ('writing', 'NN'))
+(('writing', 'NN'), 'det', ('a', 'DT'))
+(('implement', 'VB'), 'nmod', ('wheel', 'NN'))
+(('wheel', 'NN'), 'case', ('with', 'IN'))
+(('wheel', 'NN'), 'det', ('a', 'DT'))
+(('wheel', 'NN'), 'amod', ('small', 'JJ'))
+(('wheel', 'NN'), 'amod', ('toothed', 'JJ'))
+(('wheel', 'NN'), 'acl:relcl', ('cuts', 'VBZ'))
+(('cuts', 'VBZ'), 'nsubj', ('that', 'WDT'))
+(('cuts', 'VBZ'), 'dobj', ('holes', 'NNS'))
+(('holes', 'NNS'), 'amod', ('small', 'JJ'))
+(('cuts', 'VBZ'), 'nmod', ('stencil', 'NN'))
+(('stencil', 'NN'), 'case', ('in', 'IN'))
+(('stencil', 'NN'), 'det', ('a', 'DT'))
+
+
+marker.n.03: a writing implement for making a mark
+(('implement', 'VB'), 'nsubj', ('writing', 'NN'))
+(('writing', 'NN'), 'det', ('a', 'DT'))
+(('implement', 'VB'), 'advcl', ('making', 'VBG'))
+(('making', 'VBG'), 'mark', ('for', 'IN'))
+(('making', 'VBG'), 'dobj', ('mark', 'NN'))
+(('mark', 'NN'), 'det', ('a', 'DT'))
+for making a mark
+
+pen.n.01: a writing implement with a point from which ink flows
+(('implement', 'VB'), 'nsubj', ('writing', 'NN'))
+(('writing', 'NN'), 'det', ('a', 'DT'))
+(('implement', 'VB'), 'nmod', ('point', 'NN'))
+(('point', 'NN'), 'case', ('with', 'IN'))
+(('point', 'NN'), 'det', ('a', 'DT'))
+(('point', 'NN'), 'acl:relcl', ('flows', 'VBZ'))
+(('flows', 'VBZ'), 'nmod', ('which', 'WDT'))
+(('which', 'WDT'), 'case', ('from', 'IN'))
+(('flows', 'VBZ'), 'nsubj', ('ink', 'NN'))
+
+
+pencil.n.01: a thin cylindrical pointed writing implement; a rod of marking substance encased in wood
+(('implement', 'VB'), 'nsubj', ('writing', 'NN'))
+(('writing', 'NN'), 'det', ('a', 'DT'))
+(('writing', 'NN'), 'amod', ('thin', 'JJ'))
+(('writing', 'NN'), 'amod', ('cylindrical', 'JJ'))
+(('writing', 'NN'), 'amod', ('pointed', 'JJ'))
+(('implement', 'VB'), 'punct', (';', ':'))
+(('implement', 'VB'), 'dobj', ('rod', 'NN'))
+(('rod', 'NN'), 'det', ('a', 'DT'))
+(('rod', 'NN'), 'acl', ('marking', 'VBG'))
+(('marking', 'VBG'), 'mark', ('of', 'IN'))
+(('marking', 'VBG'), 'dobj', ('substance', 'NN'))
+(('substance', 'NN'), 'acl', ('encased', 'VBN'))
+(('encased', 'VBN'), 'nmod', ('wood', 'NN'))
+(('wood', 'NN'), 'case', ('in', 'IN'))
+
+
+sketcher.n.02: an implement for sketching
+(('implement', 'VB'), 'det', ('an', 'DT'))
+(('implement', 'VB'), 'advcl', ('sketching', 'VBG'))
+(('sketching', 'VBG'), 'mark', ('for', 'IN'))
+for sketching
+
+drawing_chalk.n.01: colored chalks used by artists
+(('chalks', 'NNS'), 'amod', ('colored', 'VBN'))
+(('chalks', 'NNS'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'nmod', ('artists', 'NNS'))
+(('artists', 'NNS'), 'case', ('by', 'IN'))
+by artists
+
+tailor's_chalk.n.01: chalk used by tailors to make temporary marks on cloth
+(('chalk', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'nmod', ('tailors', 'NNS'))
+(('tailors', 'NNS'), 'case', ('by', 'IN'))
+(('used', 'VBN'), 'xcomp', ('make', 'VB'))
+(('make', 'VB'), 'mark', ('to', 'TO'))
+(('make', 'VB'), 'dobj', ('marks', 'NNS'))
+(('marks', 'NNS'), 'amod', ('temporary', 'JJ'))
+(('make', 'VB'), 'nmod', ('cloth', 'NN'))
+(('cloth', 'NN'), 'case', ('on', 'IN'))
+by tailors to make temporary marks on cloth
+
+highlighter.n.02: a fluorescent marker used to mark important passages in a text
+(('marker', 'NN'), 'det', ('a', 'DT'))
+(('marker', 'NN'), 'amod', ('fluorescent', 'JJ'))
+(('marker', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'xcomp', ('mark', 'VB'))
+(('mark', 'VB'), 'mark', ('to', 'TO'))
+(('mark', 'VB'), 'dobj', ('passages', 'NNS'))
+(('passages', 'NNS'), 'amod', ('important', 'JJ'))
+(('mark', 'VB'), 'nmod', ('text', 'NN'))
+(('text', 'NN'), 'case', ('in', 'IN'))
+(('text', 'NN'), 'det', ('a', 'DT'))
+to mark important passages in a text
+
+ballpoint.n.01: a pen that has a small metal ball as the point of transfer of ink to paper
+(('pen', 'NN'), 'det', ('a', 'DT'))
+(('pen', 'NN'), 'acl:relcl', ('has', 'VBZ'))
+(('has', 'VBZ'), 'nsubj', ('that', 'WDT'))
+(('has', 'VBZ'), 'dobj', ('ball', 'NN'))
+(('ball', 'NN'), 'det', ('a', 'DT'))
+(('ball', 'NN'), 'amod', ('small', 'JJ'))
+(('ball', 'NN'), 'compound', ('metal', 'NN'))
+(('has', 'VBZ'), 'nmod', ('point', 'NN'))
+(('point', 'NN'), 'case', ('as', 'IN'))
+(('point', 'NN'), 'det', ('the', 'DT'))
+(('point', 'NN'), 'nmod', ('transfer', 'NN'))
+(('transfer', 'NN'), 'case', ('of', 'IN'))
+(('transfer', 'NN'), 'nmod', ('ink', 'NN'))
+(('ink', 'NN'), 'case', ('of', 'IN'))
+(('transfer', 'NN'), 'nmod', ('paper', 'NN'))
+(('paper', 'NN'), 'case', ('to', 'TO'))
+
+
+felt-tip_pen.n.01: a pen with a writing tip made of felt (trade name Magic Marker)
+(('pen', 'NN'), 'det', ('a', 'DT'))
+(('pen', 'NN'), 'nmod', ('tip', 'NN'))
+(('tip', 'NN'), 'case', ('with', 'IN'))
+(('tip', 'NN'), 'det', ('a', 'DT'))
+(('tip', 'NN'), 'amod', ('writing', 'VBG'))
+(('tip', 'NN'), 'acl', ('made', 'VBN'))
+(('made', 'VBN'), 'dep', ('of', 'IN'))
+(('of', 'IN'), 'dep', ('felt', 'VBN'))
+(('felt', 'VBN'), 'dep', ('Marker', 'NNP'))
+(('Marker', 'NNP'), 'punct', ('-LRB-', '-LRB-'))
+(('Marker', 'NNP'), 'compound', ('trade', 'NN'))
+(('Marker', 'NNP'), 'compound', ('name', 'NN'))
+(('Marker', 'NNP'), 'compound', ('Magic', 'NNP'))
+(('Marker', 'NNP'), 'punct', ('-RRB-', '-RRB-'))
+
+
+fountain_pen.n.01: a pen that is supplied with ink from a reservoir in its barrel
+(('pen', 'NN'), 'det', ('a', 'DT'))
+(('pen', 'NN'), 'acl:relcl', ('supplied', 'VBN'))
+(('supplied', 'VBN'), 'nsubjpass', ('that', 'WDT'))
+(('supplied', 'VBN'), 'auxpass', ('is', 'VBZ'))
+(('supplied', 'VBN'), 'nmod', ('ink', 'NN'))
+(('ink', 'NN'), 'case', ('with', 'IN'))
+(('supplied', 'VBN'), 'nmod', ('reservoir', 'NN'))
+(('reservoir', 'NN'), 'case', ('from', 'IN'))
+(('reservoir', 'NN'), 'det', ('a', 'DT'))
+(('reservoir', 'NN'), 'nmod', ('barrel', 'NN'))
+(('barrel', 'NN'), 'case', ('in', 'IN'))
+(('barrel', 'NN'), 'nmod:poss', ('its', 'PRP$'))
+
+
+quill.n.01: pen made from a bird's feather
+(('made', 'VBD'), 'nsubj', ('pen', 'NN'))
+(('made', 'VBD'), 'nmod', ('feather', 'NN'))
+(('feather', 'NN'), 'case', ('from', 'IN'))
+(('feather', 'NN'), 'nmod:poss', ('bird', 'NN'))
+(('bird', 'NN'), 'det', ('a', 'DT'))
+(('bird', 'NN'), 'case', ("'s", 'POS'))
+
+
+sharpie.n.03: a pen with indelible ink that will write on any surface
+(('pen', 'NN'), 'det', ('a', 'DT'))
+(('pen', 'NN'), 'nmod', ('ink', 'NN'))
+(('ink', 'NN'), 'case', ('with', 'IN'))
+(('ink', 'NN'), 'amod', ('indelible', 'JJ'))
+(('pen', 'NN'), 'acl:relcl', ('write', 'VB'))
+(('write', 'VB'), 'nsubj', ('that', 'WDT'))
+(('write', 'VB'), 'aux', ('will', 'MD'))
+(('write', 'VB'), 'nmod', ('surface', 'NN'))
+(('surface', 'NN'), 'case', ('on', 'IN'))
+(('surface', 'NN'), 'det', ('any', 'DT'))
+
+
+lead_pencil.n.01: pencil that has graphite as the marking substance
+(('pencil', 'NN'), 'acl:relcl', ('has', 'VBZ'))
+(('has', 'VBZ'), 'nsubj', ('that', 'WDT'))
+(('has', 'VBZ'), 'dobj', ('graphite', 'NN'))
+(('has', 'VBZ'), 'nmod', ('substance', 'NN'))
+(('substance', 'NN'), 'case', ('as', 'IN'))
+(('substance', 'NN'), 'det', ('the', 'DT'))
+(('substance', 'NN'), 'amod', ('marking', 'VBG'))
+
+
+slate_pencil.n.01: a pencil of soft slate (or soapstone) used for writing on a slate
+(('pencil', 'NN'), 'det', ('a', 'DT'))
+(('pencil', 'NN'), 'nmod', ('slate', 'NN'))
+(('slate', 'NN'), 'case', ('of', 'IN'))
+(('slate', 'NN'), 'amod', ('soft', 'JJ'))
+(('slate', 'NN'), 'appos', ('soapstone', 'NN'))
+(('soapstone', 'NN'), 'punct', ('-LRB-', '-LRB-'))
+(('soapstone', 'NN'), 'cc', ('or', 'CC'))
+(('soapstone', 'NN'), 'punct', ('-RRB-', '-RRB-'))
+(('pencil', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('writing', 'VBG'))
+(('writing', 'VBG'), 'mark', ('for', 'IN'))
+(('writing', 'VBG'), 'nmod', ('slate', 'NN'))
+(('slate', 'NN'), 'case', ('on', 'IN'))
+(('slate', 'NN'), 'det', ('a', 'DT'))
+for writing of soft on a slate soapstone -LRB- or -RRB-
+

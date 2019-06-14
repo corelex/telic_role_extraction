@@ -1,0 +1,211 @@
+broom.n.01: a cleaning implement for sweeping; bundle of straws or twigs attached to a long handle
+(('implement', 'VB'), 'nsubj', ('cleaning', 'NN'))
+(('cleaning', 'NN'), 'det', ('a', 'DT'))
+(('implement', 'VB'), 'nmod', ('sweeping', 'JJ'))
+(('sweeping', 'JJ'), 'case', ('for', 'IN'))
+(('implement', 'VB'), 'punct', (';', ':'))
+(('implement', 'VB'), 'parataxis', ('bundle', 'NN'))
+(('bundle', 'NN'), 'nmod', ('straws', 'NNS'))
+(('straws', 'NNS'), 'case', ('of', 'IN'))
+(('straws', 'NNS'), 'cc', ('or', 'CC'))
+(('straws', 'NNS'), 'conj', ('twigs', 'NNS'))
+(('bundle', 'NN'), 'acl', ('attached', 'VBN'))
+(('attached', 'VBN'), 'nmod', ('handle', 'VB'))
+(('handle', 'VB'), 'case', ('to', 'TO'))
+(('handle', 'VB'), 'det', ('a', 'DT'))
+(('handle', 'VB'), 'amod', ('long', 'JJ'))
+for sweeping
+
+carpet_sweeper.n.01: a cleaning implement with revolving brushes that pick up dirt as the implement is pushed over a carpet
+(('implement', 'VB'), 'nsubj', ('cleaning', 'NN'))
+(('cleaning', 'NN'), 'det', ('a', 'DT'))
+(('implement', 'VB'), 'nmod', ('brushes', 'NNS'))
+(('brushes', 'NNS'), 'case', ('with', 'IN'))
+(('brushes', 'NNS'), 'amod', ('revolving', 'JJ'))
+(('brushes', 'NNS'), 'acl:relcl', ('pick', 'VBP'))
+(('pick', 'VBP'), 'nsubj', ('that', 'WDT'))
+(('pick', 'VBP'), 'compound:prt', ('up', 'RP'))
+(('pick', 'VBP'), 'dobj', ('dirt', 'NN'))
+(('pick', 'VBP'), 'advcl', ('pushed', 'VBN'))
+(('pushed', 'VBN'), 'mark', ('as', 'IN'))
+(('pushed', 'VBN'), 'nsubjpass', ('implement', 'VBP'))
+(('implement', 'VBP'), 'det', ('the', 'DT'))
+(('pushed', 'VBN'), 'auxpass', ('is', 'VBZ'))
+(('pushed', 'VBN'), 'nmod', ('carpet', 'NN'))
+(('carpet', 'NN'), 'case', ('over', 'IN'))
+(('carpet', 'NN'), 'det', ('a', 'DT'))
+
+
+cleaning_pad.n.01: a pad used as a cleaning implement
+(('implement', 'VB'), 'nsubj', ('pad', 'NN'))
+(('pad', 'NN'), 'det', ('a', 'DT'))
+(('pad', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'nmod', ('cleaning', 'NN'))
+(('cleaning', 'NN'), 'case', ('as', 'IN'))
+(('cleaning', 'NN'), 'det', ('a', 'DT'))
+as a cleaning
+
+pipe_cleaner.n.01: cleaning implement consisting of a flexible tufted wire that is used to clean a pipe stem
+(('implement', 'VBP'), 'nsubj', ('cleaning', 'NN'))
+(('implement', 'VBP'), 'xcomp', ('consisting', 'VBG'))
+(('consisting', 'VBG'), 'nmod', ('wire', 'NN'))
+(('wire', 'NN'), 'case', ('of', 'IN'))
+(('wire', 'NN'), 'det', ('a', 'DT'))
+(('wire', 'NN'), 'amod', ('flexible', 'JJ'))
+(('wire', 'NN'), 'amod', ('tufted', 'JJ'))
+(('wire', 'NN'), 'acl:relcl', ('used', 'VBN'))
+(('used', 'VBN'), 'nsubjpass', ('that', 'WDT'))
+(('used', 'VBN'), 'auxpass', ('is', 'VBZ'))
+(('used', 'VBN'), 'xcomp', ('clean', 'VB'))
+(('clean', 'VB'), 'mark', ('to', 'TO'))
+(('clean', 'VB'), 'dobj', ('stem', 'NN'))
+(('stem', 'NN'), 'det', ('a', 'DT'))
+(('stem', 'NN'), 'compound', ('pipe', 'NN'))
+to clean a pipe stem
+
+pull-through.n.01: cleaning implement consisting of an oily rag attached by a cord to a weight; is pulled through the barrel of a rifle or handgun to clean it
+(('implement', 'VBP'), 'nsubj', ('cleaning', 'NN'))
+(('implement', 'VBP'), 'xcomp', ('consisting', 'VBG'))
+(('consisting', 'VBG'), 'nmod', ('rag', 'NN'))
+(('rag', 'NN'), 'case', ('of', 'IN'))
+(('rag', 'NN'), 'det', ('an', 'DT'))
+(('rag', 'NN'), 'amod', ('oily', 'JJ'))
+(('rag', 'NN'), 'acl', ('attached', 'VBN'))
+(('attached', 'VBN'), 'nmod', ('cord', 'NN'))
+(('cord', 'NN'), 'case', ('by', 'IN'))
+(('cord', 'NN'), 'det', ('a', 'DT'))
+(('attached', 'VBN'), 'nmod', ('weight', 'NN'))
+(('weight', 'NN'), 'case', ('to', 'TO'))
+(('weight', 'NN'), 'det', ('a', 'DT'))
+(('implement', 'VBP'), 'punct', (';', ':'))
+(('implement', 'VBP'), 'parataxis', ('pulled', 'VBN'))
+(('pulled', 'VBN'), 'auxpass', ('is', 'VBZ'))
+(('pulled', 'VBN'), 'nmod', ('barrel', 'NN'))
+(('barrel', 'NN'), 'case', ('through', 'IN'))
+(('barrel', 'NN'), 'det', ('the', 'DT'))
+(('barrel', 'NN'), 'nmod', ('rifle', 'NN'))
+(('rifle', 'NN'), 'case', ('of', 'IN'))
+(('rifle', 'NN'), 'det', ('a', 'DT'))
+(('rifle', 'NN'), 'cc', ('or', 'CC'))
+(('rifle', 'NN'), 'conj', ('handgun', 'NN'))
+(('pulled', 'VBN'), 'xcomp', ('clean', 'VB'))
+(('clean', 'VB'), 'mark', ('to', 'TO'))
+(('clean', 'VB'), 'dobj', ('it', 'PRP'))
+
+
+squeegee.n.01: T-shaped cleaning implement with a rubber edge across the top; drawn across a surface to remove water (as in washing windows)
+(('implement', 'VB'), 'nsubj', ('cleaning', 'NN'))
+(('cleaning', 'NN'), 'amod', ('T-shaped', 'JJ'))
+(('implement', 'VB'), 'nmod', ('edge', 'NN'))
+(('edge', 'NN'), 'case', ('with', 'IN'))
+(('edge', 'NN'), 'det', ('a', 'DT'))
+(('edge', 'NN'), 'compound', ('rubber', 'NN'))
+(('edge', 'NN'), 'nmod', ('top', 'NN'))
+(('top', 'NN'), 'case', ('across', 'IN'))
+(('top', 'NN'), 'det', ('the', 'DT'))
+(('implement', 'VB'), 'punct', (';', ':'))
+(('implement', 'VB'), 'parataxis', ('drawn', 'VBN'))
+(('drawn', 'VBN'), 'nmod', ('surface', 'NN'))
+(('surface', 'NN'), 'case', ('across', 'IN'))
+(('surface', 'NN'), 'det', ('a', 'DT'))
+(('drawn', 'VBN'), 'xcomp', ('remove', 'VB'))
+(('remove', 'VB'), 'mark', ('to', 'TO'))
+(('remove', 'VB'), 'dobj', ('water', 'NN'))
+(('remove', 'VB'), 'punct', ('-LRB-', '-LRB-'))
+(('-LRB-', '-LRB-'), 'root', ('as', 'IN'))
+(('as', 'IN'), 'advcl', ('washing', 'VBG'))
+(('washing', 'VBG'), 'mark', ('in', 'IN'))
+(('washing', 'VBG'), 'dobj', ('windows', 'NNS'))
+(('as', 'IN'), 'punct', ('-RRB-', '-RRB-'))
+
+
+swab.n.02: cleaning implement consisting of absorbent material fastened to a handle; for cleaning floors
+(('implement', 'VBP'), 'nsubj', ('cleaning', 'NN'))
+(('implement', 'VBP'), 'xcomp', ('consisting', 'VBG'))
+(('consisting', 'VBG'), 'nmod', ('material', 'NN'))
+(('material', 'NN'), 'case', ('of', 'IN'))
+(('material', 'NN'), 'amod', ('absorbent', 'JJ'))
+(('consisting', 'VBG'), 'dep', ('fastened', 'VBD'))
+(('fastened', 'VBD'), 'nmod', ('handle', 'VB'))
+(('handle', 'VB'), 'case', ('to', 'TO'))
+(('handle', 'VB'), 'det', ('a', 'DT'))
+(('implement', 'VBP'), 'punct', (';', ':'))
+(('implement', 'VBP'), 'advcl', ('cleaning', 'VBG'))
+(('cleaning', 'VBG'), 'mark', ('for', 'IN'))
+(('cleaning', 'VBG'), 'dobj', ('floors', 'NNS'))
+for cleaning floors
+
+besom.n.01: a broom made of twigs tied together on a long handle
+(('broom', 'NN'), 'det', ('a', 'DT'))
+(('broom', 'NN'), 'acl', ('made', 'VBN'))
+(('made', 'VBN'), 'nmod', ('twigs', 'NNS'))
+(('twigs', 'NNS'), 'case', ('of', 'IN'))
+(('twigs', 'NNS'), 'acl', ('tied', 'VBN'))
+(('tied', 'VBN'), 'advmod', ('together', 'RB'))
+(('tied', 'VBN'), 'nmod', ('handle', 'VB'))
+(('handle', 'VB'), 'case', ('on', 'IN'))
+(('handle', 'VB'), 'det', ('a', 'DT'))
+(('handle', 'VB'), 'amod', ('long', 'JJ'))
+
+
+push_broom.n.01: a wide broom that is pushed ahead of the sweeper
+(('broom', 'NN'), 'det', ('a', 'DT'))
+(('broom', 'NN'), 'amod', ('wide', 'JJ'))
+(('broom', 'NN'), 'acl:relcl', ('pushed', 'VBN'))
+(('pushed', 'VBN'), 'nsubjpass', ('that', 'WDT'))
+(('pushed', 'VBN'), 'auxpass', ('is', 'VBZ'))
+(('pushed', 'VBN'), 'advmod', ('ahead', 'RB'))
+(('ahead', 'RB'), 'nmod', ('sweeper', 'NN'))
+(('sweeper', 'NN'), 'case', ('of', 'IN'))
+(('sweeper', 'NN'), 'det', ('the', 'DT'))
+
+
+whisk.n.02: a small short-handled broom used to brush clothes
+(('broom', 'NN'), 'det', ('a', 'DT'))
+(('broom', 'NN'), 'amod', ('small', 'JJ'))
+(('broom', 'NN'), 'amod', ('short-handled', 'JJ'))
+(('broom', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'xcomp', ('brush', 'VB'))
+(('brush', 'VB'), 'mark', ('to', 'TO'))
+(('brush', 'VB'), 'dobj', ('clothes', 'NNS'))
+to brush clothes
+
+scouring_pad.n.01: a small abrasive cleaning pad used for scouring pots and pans
+(('pad', 'NN'), 'det', ('a', 'DT'))
+(('pad', 'NN'), 'amod', ('small', 'JJ'))
+(('pad', 'NN'), 'amod', ('abrasive', 'JJ'))
+(('pad', 'NN'), 'compound', ('cleaning', 'NN'))
+(('pad', 'NN'), 'acl', ('used', 'VBN'))
+(('used', 'VBN'), 'advcl', ('scouring', 'VBG'))
+(('scouring', 'VBG'), 'mark', ('for', 'IN'))
+(('scouring', 'VBG'), 'dobj', ('pots', 'NNS'))
+(('pots', 'NNS'), 'cc', ('and', 'CC'))
+(('pots', 'NNS'), 'conj', ('pans', 'NNS'))
+for scouring pots and pans
+
+soap_pad.n.01: a cleaning pad containing soap
+(('pad', 'NN'), 'det', ('a', 'DT'))
+(('pad', 'NN'), 'compound', ('cleaning', 'NN'))
+(('pad', 'NN'), 'acl', ('containing', 'VBG'))
+(('containing', 'VBG'), 'dobj', ('soap', 'NN'))
+
+
+dustmop.n.01: a dry swab for dusting floors
+(('swab', 'NN'), 'det', ('a', 'DT'))
+(('swab', 'NN'), 'amod', ('dry', 'JJ'))
+(('swab', 'NN'), 'acl', ('dusting', 'VBG'))
+(('dusting', 'VBG'), 'mark', ('for', 'IN'))
+(('dusting', 'VBG'), 'dobj', ('floors', 'NNS'))
+for dusting floors
+
+sponge_mop.n.01: a wet mop with a sponge as the absorbent
+(('mop', 'VB'), 'det', ('a', 'DT'))
+(('mop', 'VB'), 'amod', ('wet', 'JJ'))
+(('mop', 'VB'), 'nmod', ('sponge', 'NN'))
+(('sponge', 'NN'), 'case', ('with', 'IN'))
+(('sponge', 'NN'), 'det', ('a', 'DT'))
+(('sponge', 'NN'), 'nmod', ('absorbent', 'JJ'))
+(('absorbent', 'JJ'), 'case', ('as', 'IN'))
+(('absorbent', 'JJ'), 'det', ('the', 'DT'))
+
+
