@@ -103,7 +103,7 @@ if __name__ == '__main__':
         kich_tool.parse_def()
     f.close()
 
-    '''ns = wn.all_synsets(pos='n')
+    ns = wn.all_synsets(pos='n')
     total = 0
     count = 0
     for n in ns:
@@ -113,4 +113,4 @@ if __name__ == '__main__':
         if len(n_kt.first_words) != 0:
             count += 1
     print(total)
-    print(count)'''
+    print(count)
