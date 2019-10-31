@@ -1,0 +1,1273 @@
+cheese_cutter.n.01
+gloss: a kitchen utensil (board or handle) with a wire for cutting cheese
+tagged: a kitchen utensil (board or handle) with <const>a wire</const> for <telic>cutting cheese</telic>
+const: a wire
+telic: cutting cheese
+comment: const introduced by "with"; telic introduced by "for"
+
+cookie_cutter.n.01
+gloss: a kitchen utensil used to cut a sheet of cookie dough into desired shapes before baking
+tagged: a kitchen utensil used to <telic>cut a sheet of cookie dough into desired shapes before baking</telic>
+const:
+telic: cut a sheet of cookie dough into desired shapes before baking
+comment: telic introduced by "used to"
+
+cooking_utensil.n.01
+gloss: a kitchen utensil made of material that does not melt easily; used for cooking
+tagged: a kitchen utensil made of material that does not melt easily; used for <telic>cooking</telic>
+const:
+telic: cooking
+comment: telic introduced by "used for"
+
+grater.n.01
+gloss: utensil with sharp perforations for shredding foods (as vegetables or cheese)
+tagged: utensil with <const>sharp perforations</const> for <telic>shredding foods</telic> (as vegetables or cheese)
+const: sharp perforations
+telic: shredding foods
+comment: const introduced by "with"; telic introduced by "for"
+
+kitchenware.n.01
+gloss: hardware utensils for use in a kitchen
+tagged: hardware utensils for <telic>use in a kitchen</telic>
+const:
+telic: use in a kitchen
+comment: telic introduced by "for use", "use" in telic?
+
+masher.n.02
+gloss: a kitchen utensil used for mashing (e.g. potatoes)
+tagged: a kitchen utensil used for <telic>mashing</telic> (e.g. potatoes)
+const:
+telic: mashing
+comment: telic introduced by "for"
+
+mincer.n.01
+gloss: a kitchen utensil that cuts or chops food (especially meat) into small pieces
+tagged: a kitchen utensil that <telic>cuts or chops food (especially meat) into small pieces</telic>
+const: 
+telic: a kitchen utensil that cuts or chops food (especially meat) into small pieces
+comment: telic introduced by "that"
+
+mixer.n.04
+gloss: a kitchen utensil that is used for mixing foods
+tagged: a kitchen utensil that is used for <telic>mixing foods</telic>
+const:
+telic: mixing food
+comment: telic introduced by "used for"
+
+ricer.n.01
+gloss: a kitchen utensil used for ricing soft foods by extruding them through small holes
+tagged: a kitchen utensil used for <telic>ricing soft foods by extruding them through small holes</telic>
+const:
+telic: ricing soft foods by extruding them through small holes
+comment: telic introduced by "used for"
+
+rolling_pin.n.01
+gloss: utensil consisting of a cylinder (usually of wood) with a handle at each end; used to roll out dough
+tagged: utensil consisting of <const>a cylinder (usually of wood) with a handle at each end</const>; used to <telic>roll out dough</telic>
+const: a cylinder (usually of wood) with a handle at each end
+telic: roll out dough
+comment: const introduced by "consisting"; telic introduced by "used to"
+
+seeder.n.03
+gloss: a kitchen utensil that removes seeds from fruit
+tagged: a kitchen utensil that <telic>removes seeds from fruit</telic>
+const:
+telic: removes seeds from fruit
+comment: telic introduced by "a kitchen utensil that"?
+
+squeezer.n.01
+gloss: a kitchen utensil for squeezing juice from fruit
+tagged: a kitchen utensil for <telic>squeezing juice from fruit</telic>
+const:
+telic: squeezing juice from fruit
+comment: telic introduced by "for"
+
+tea_ball.n.01
+gloss: a kitchen utensil consisting of a perforated metal ball for making tea
+tagged: a kitchen utensil consisting of <const>a perforated metal ball</const> for <telic>making tea</telic>
+const: a perforated metal ball
+telic: making tea
+comment: const introduced by "consisting of"; telic introduced by "for"
+
+baster.n.03
+gloss: a tube with a rubber bulb used to take up and release melted fat or gravy in order to moisten roasting meat
+tagged: a tube with <const>a rubber bulb</const> used to <telic>take up and release melted fat or gravy in order to moisten roasting meat</telic>
+const: a rubber bulb
+telic: take up and release melted fat or gravy in order to moisten roasting meat
+comment: const introduced by "with"; telic introduced by "used to"
+
+chafing_dish.n.01
+gloss: a metal pan over a heater; used to cook or to keep things warm at the table
+tagged: <const>a metal pan</const> over <const>a heater</const>; used to <telic>cook or to keep things warm at the table</telic>
+const: a metal pan, a heater
+telic: cook or to keep things warm at the table
+comment: const introduced by "over"?; telic introduced by "used to"
+
+cooker.n.01
+gloss: a utensil for cooking
+tagged: a utensil for <telic>cooking</telic>
+const:
+telic: cooking
+comment: telic introduced by "for"
+
+cookie_sheet.n.01
+gloss: a cooking utensil consisting of a flat rectangular metal sheet used for baking cookies or biscuits
+tagged: a cooking utensil consisting of <const>a flat rectangular metal sheet</const> used for <telic>baking cookies or biscuits</telic>
+const: a flat rectangular metal sheet
+telic: baking cookies or biscuits
+comment: const introduced by "consisting of"; telic introduced by "used for"
+
+enamelware.n.01
+gloss: cooking utensil of enameled iron
+tagged: cooking utensil of <const>enameled iron</const>
+const: enameled iron
+telic:
+comment: const introduced by "of"
+
+grid.n.05
+gloss: a cooking utensil of parallel metal bars; used to grill fish or meat
+tagged: a cooking utensil of <const>parallel metal bars</const>; used to <telic>grill fish or meat</telic>
+const: parallel metal bars
+telic: grill fish or meat
+comment: const introduced by "of"; telic introduced by "used to"
+
+griddle.n.01
+gloss: cooking utensil consisting of a flat heated surface (as on top of a stove) on which food is cooked
+tagged: cooking utensil consisting of <const>a flat heated surface</const> (as on top of a stove) on which <telic>food is cooked</telic>
+const: a flat heated surface
+telic: food is cooked
+comment: const introduced by "consisting of"; telic introduced by "on which"
+
+pan.n.01
+gloss: cooking utensil consisting of a wide metal vessel
+tagged: cooking utensil consisting of <const>a wide metal vessel</const>
+const: a wide metal vessel
+telic:
+comment: const introduced by "consisting of"
+
+poacher.n.02
+gloss: a cooking vessel designed to poach food (such as fish or eggs)
+tagged: a cooking vessel designed to <telic>poach food (such as fish or eggs)</telic>?
+const:
+telic: poach food (such as fish or eggs)
+comment: telic introduced by "designed to"
+
+pot.n.01
+gloss: metal or earthenware cooking vessel that is usually round and deep; often has a handle and lid
+tagged: metal or earthenware cooking vessel that is usually round and deep; often has <const>a handle</const> and <const>lid</const>
+const: a handle, lid?
+telic:
+comment: const introduced by "often has"
+
+skimmer.n.02
+gloss: a cooking utensil used to skim fat from the surface of liquids
+tagged: a cooking utensil used to <telic>skim fat from the surface of liquids</telic>
+const:
+telic: skim fat from the surface of liquids
+comment: telic introduced by "used to"
+
+steamer.n.02
+gloss: a cooking utensil that can be used to cook food by steaming it
+tagged: a cooking utensil that can be used to <telic>cook food by steaming it</telic>
+const:
+telic: cook food by steaming it
+comment: telic introduced by "used to"
+
+turner.n.08
+gloss: cooking utensil having a flat flexible part and a long handle; used for turning or serving food
+tagged: cooking utensil having <const>a flat flexible part</const> and <const>a long handle</const>; used for <telic>turning or serving food</telic>
+const: a flat flexible part, a long handle?
+telic: turning or serving food
+comment: const introduced by "having"; telic introduced by "used for"
+
+blender.n.01:
+gloss: an electrically powered mixer with whirling blades that mix or chop or liquefy foods
+tagged: <const>an electrically powered mixer</const> with <const>whirling blades</const> that <telic>mix or chop or liquefy foods<telic>
+const: an electrically powered mixer, whirling blades?
+telic: mix or chop or liquefy foods
+comment: const introduced by "with"; telic introduced by "that"
+
+eggbeater.n.02
+gloss: a mixer for beating eggs or whipping cream
+tagged: a mixer for <telic>beating eggs or whipping cream</telic>
+const:
+telic: beating eggs or whipping cream
+comment: telic introduced by "for"
+
+electric_mixer.n.01
+gloss: a food mixer powered by an electric motor
+tagged: a food mixer powered by <const>an electric motor</const>
+const: an electric motor
+telic:
+comment: const introduced by "powered by"
+
+whisk.n.01
+gloss: a mixer incorporating a coil of wires; used for whipping eggs or cream
+tagged: a mixer incorporating <const>a coil of wires</const>; used for <telic>whipping eggs or cream</telic>
+const: a coil of wires
+telic: whipping eggs or cream
+comment: const introduced by "incorporating"; telic introduced by "used for"
+
+reamer.n.01:
+gloss: a squeezer with a conical ridged center that is used for squeezing juice from citrus fruit
+tagged: a squeezer with <const>a conical ridged center</const> that is used for <telic>squeezing juice from citrus fruit</telic>
+const: a conical ridged center
+telic: squeezing juice from citrus fruit
+comment: const introduced by "with"; telic introduced by "used for"
+
+crock_pot.n.01
+gloss: an electric cooker that maintains a relatively low temperature
+tagged: an electric cooker that <telic>maintains a relatively low temperature</telic>
+const:
+telic: maintains a relatively low temperature
+comment: telic introduced by "that"
+
+popper.n.03
+gloss: a container for cooking popcorn
+tagged: a container for <telic>cooking popcorn</telic>
+const:
+telic: cooking popcorn
+comment: telic introduced by "for"
+
+cloisonne.n.01
+gloss: enamelware in which colored areas are separated by thin metal strips
+tagged: <const>enamelware</const> in which <const>colored areas</const> are separated by <const>thin metal strips</const>
+const: enamelware, colored areas, thin metal strips?
+telic:
+comment: const introduced by?
+
+graniteware.n.01
+gloss: a kind of stone-grey enamelware
+tagged: a kind of stone-grey enamelware
+const: ?
+telic:
+comment:
+
+dripping_pan.n.01:
+gloss: pan for catching drippings under roasting meat
+tagged: pan for <telic>catching drippings under roasting meat</telic>
+const:
+telic: catching drippings under roasting meat
+comment: telic introduced by "for"
+
+frying_pan.n.01
+gloss: a pan used for frying foods
+tagged: a pan used for <telic>frying foods</telic>
+const:
+telic: frying foods
+comment: telic introduced by "used for"
+
+omelet_pan.n.01
+gloss: pan for cooking omelets
+tagged: pan for <telic>cooking omelets</telic>
+const:
+telic: cooking omelets
+comment: telic introduced by "for"
+
+patty-pan.n.01
+gloss: a pan for cooking patties or pasties
+tagged: a pan for <telic>cooking patties or pasties</telic>
+const:
+telic: cooking patties or pasties
+comment: telic introduced by "for"
+
+roaster.n.04
+gloss: a special cooking pan for roasting
+tagged: a special cooking pan for <telic>roasting</telic>
+const:
+telic: roasting
+comment: telic introduced by "for"
+
+saucepan.n.01
+gloss: a deep pan with a handle; used for stewing or boiling
+tagged: <const>a deep pan</const> with <const>a handle</const>; used for <telic>stewing or boiling</telic>
+const: a deep pan, a handle
+telic: stewing or boiling
+comment: const introduced by "with"; telic introduced by "used for"
+
+wok.n.01
+gloss: pan with a convex bottom; used for frying in Chinese cooking
+tagged: <const>pan</const> with a convex bottom; used for <telic>frying in Chinese cooking</telic>
+const: ?
+telic: frying in Chinese cooking
+comment: const?; telic introduced by "used for"
+
+caldron.n.01:
+gloss: a very large pot that is used for boiling
+tagged: a very large pot that is used for <telic>boiling</telic>
+const: ?
+telic: boiling
+comment: telic introduced by "used for"
+
+coffeepot.n.01:
+gloss: tall pot in which coffee is brewed
+tagged: tall pot in which <telic>coffee is brewed</telic>
+const:
+telic: coffee is brewed
+comment: telic introduced by "in which"
+
+dixie.n.02
+gloss: a large metal pot (12 gallon camp kettle) for cooking; used in military camps
+tagged: a large metal pot (12 gallon camp kettle) for <telic>cooking</telic>; used in military camps
+const: ?
+telic: cooking, military camps?
+comment: telic introduced by "for"
+
+dutch_oven.n.02:
+gloss: iron or earthenware cooking pot; used for stews
+tagged: iron or earthenware cooking pot; used for <const>stews</const>
+const:
+telic: stews
+comment: telic introduced by "used for"
+
+kettle.n.01
+gloss: a metal pot for stewing or boiling; usually has a lid
+tagged: a metal pot for <telic>stewing or boiling</telic>; usually has <const>a lid</const>
+const: a lid
+telic: stewing or boiling
+comment: const introduced by "usually has"; telic introduced by "for"
+
+marmite.n.02
+gloss: a large pot especially one with legs used e.g. for cooking soup
+tagged: <const>a large pot especially one with legs</const> used <telic>e.g. for cooking soup</telic>
+const: ?
+telic: e.g.?
+comment:
+
+pottle.n.01
+gloss: a pot that holds 2 quarts
+tagged: a pot that <telic>holds 2 quarts</telic>
+const:
+telic: holds 2 quarts
+comment: telic introduced by "that"
+
+saucepot.n.01
+gloss: a cooking pot that has handles on either side and tight fitting lid; used for stewing or boiling
+tagged: a cooking pot that has handles on either side and tight fitting lid; used for <telic>stewing or boiling</telic>
+const: ?
+telic: stewing or boiling
+comment:
+
+stockpot.n.01
+gloss: a pot used for preparing soup stock
+tagged: a pot used for <telic>preparing soup stock</telic>
+const:
+telic: preparing soup stock
+comment:
+
+teapot.n.01
+gloss: pot for brewing tea; usually has a spout and handle
+tagged: pot for <telic>brewing tea</telic>; usually has <const>a spout</const> and <const>handle</const>
+const: a spout, handle
+telic: brewing tea
+comment: const introduced by "usually has"; telic introduced by "for"
+
+urn.n.02
+gloss: a large pot for making coffee or tea
+tagged: a large pot for <telic>making coffee or tea</telic>
+const:
+telic: making coffee or tea
+comment:
+
+fish_slice.n.01
+gloss: a food turner with a broad blade used for turning or serving fish or other food that is cooked in a frying pan
+tagged: a food turner with <const>a broad blade</const> used for <telic>turning or serving fish or other food that is cooked in a frying pan</telic>
+const: a broad blade
+telic: turning or serving fish or other food that is cooked in a frying pan
+comment:
+
+pancake_turner.n.01
+gloss: turner for serving or turning pancakes
+tagged: turner for <telic>serving or turning pancakes</telic>
+const:
+telic: serving or turning pancakes
+comment:
+
+spatula.n.01
+gloss: a turner with a narrow flexible blade
+tagged: a turner with <const>a narrow flexible blade</const>
+const: a narrow flexible blade
+telic:
+comment:
+
+electric_frying_pan.n.01
+gloss: a frying pan heated by electricity
+tagged: a frying pan heated by electricity
+const:
+telic:
+comment:
+
+spider.n.03
+gloss: a skillet made of cast iron
+tagged: a skillet made of <const>cast iron</const>
+const: cast iron
+telic:
+comment:
+
+double_boiler.n.01
+gloss: two saucepans, one fitting inside the other
+tagged: <const>two saucepans, one fitting inside the other</const>
+const: ?
+telic:
+comment:
+
+stewing_pan.n.01
+gloss: a saucepan used for stewing
+tagged: a saucepan used for <telic>stewing</telic>
+const:
+telic: stewing
+comment:
+
+drip_pot.n.01
+gloss: a coffeepot for making drip coffee
+tagged: a coffeepot for <telic>making drip coffee</telic>
+const:
+telic: making drip coffee
+comment:
+
+percolator.n.01
+gloss: a coffeepot in which boiling water ascends through a central tube and filters back down through a basket of ground coffee beans
+tagged: a coffeepot in which boiling water ascends through a central tube and filters back down through a basket of ground coffee beans
+const: ?
+telic:
+comment:
+
+teakettle.n.01
+gloss: kettle for boiling water to make tea
+tagged: kettle for <telic>boiling water to make tea</telic>
+const:
+telic: boiling water to make tea
+comment:
+
+coffee_urn.n.01
+gloss: an urn in which coffee is made and kept hot
+tagged: an urn in which <telic>coffee is made and kept hot</telic>
+const:
+telic: coffee is made and kept hot
+comment:
+
+samovar.n.01
+gloss: a metal urn with a spigot at the base; used in Russia to boil water for tea
+tagged: <const>a metal urn</const> with <const>a spigot at the base</const>; used <telic>in Russia to boil water for tea</telic>
+const: a metal urn, a spigot at the base
+telic: in Russia to boil water for tea
+comment:
+
+tea_urn.n.01
+gloss: an urn in which tea is brewed and from which it is served
+tagged: an urn in which <telic>tea is brewed and from which it is served</telic>
+const:
+telic: tea is brewed and from which it is served
+comment:
+
+chopstick.n.01
+gloss: one of a pair of slender sticks used as oriental tableware to eat food with
+tagged: <const>one of a pair of slender sticks</const> <telic>used as oriental tableware to eat food with</telic>
+const: one of a pair of slender sticks
+telic: used as oriental tableware to eat food with
+comment:
+
+crockery.n.01
+gloss: tableware (eating and serving dishes) collectively
+tagged: tableware (eating and serving dishes) collectively
+const:
+telic:
+comment:
+
+cutlery.n.02
+gloss: tableware implements for cutting and eating food
+tagged: tableware implements <telic>for cutting and eating food</telic>
+const:
+telic: for cutting and eating food
+comment:
+
+dinnerware.n.01
+gloss: the tableware (plates and platters and serving bowls etc.) used in serving a meal
+tagged: the tableware (plates and platters and serving bowls etc.) <telic>used in serving a meal</telic>
+const:
+telic: used in serving a meal
+comment:
+
+flatware.n.01
+gloss: tableware that is relatively flat and fashioned as a single piece
+tagged: tableware that is relatively flat and fashioned as a single piece
+const:
+telic:
+comment:
+
+glassware.n.01
+gloss: an article of tableware made of glass
+tagged: an article of tableware made of glass
+const:
+telic:
+comment:
+
+gold_plate.n.01
+gloss: tableware that is plated with gold
+tagged: tableware that is plated with gold
+const:
+telic:
+comment:
+
+service.n.09
+gloss: tableware consisting of a complete set of articles (silver or dishware) for use at table
+tagged: tableware <const>consisting of a complete set of articles (silver or dishware)</const> <telic>for use at table</telic>
+const: consisting of a complete set of articles (silver or dishware)
+telic: for use at table
+comment:
+
+silver_plate.n.01
+gloss: tableware that is plated with silver
+tagged: tableware that is plated with silver
+const:
+telic:
+comment:
+
+silverware.n.01
+gloss: tableware made of silver or silver plate or pewter or stainless steel
+tagged: tableware made of silver or silver plate or pewter or stainless steel
+const:
+telic:
+comment:
+
+tea_service.n.01
+gloss: a set of china or silverware for serving tea
+tagged: a set of china or silverware <telic>for serving tea</telic>
+const:
+telic: for serving tea
+comment:
+
+chinaware.n.01
+gloss: dishware made of high quality porcelain
+tagged: dishware made of high quality porcelain
+const:
+telic:
+comment:
+
+cup.n.01
+gloss: a small open container usually used for drinking; usually has a handle
+tagged: a small open container usually <telic>used for drinking</telic>; usually <const>has a handle</const>
+const: a handle
+telic: used for drinking
+comment:
+
+dish.n.01
+gloss: a piece of dishware normally used as a container for holding or serving food
+tagged: a piece of dishware normally <telic>used as a container for holding or serving food</telic>
+const:
+telic: used as a container for holding or serving food
+comment:
+
+eggcup.n.01
+gloss: dishware consisting of a small cup for serving a boiled egg
+tagged: dishware <const>consisting of a small cup</const> <telic>for serving a boiled egg</telic>
+const: consisting of a small cup
+telic: for serving a boiled egg
+comment:
+
+ovenware.n.01
+gloss: heat-resistant dishware in which food can be cooked as well as served
+tagged: heat-resistant dishware <telic>in which food can be cooked as well as served</telic>
+const:
+telic: in which food can be cooked as well as served
+comment:
+
+fork.n.01
+gloss: cutlery used for serving and eating food
+tagged: cutlery <telic>used for serving and eating food</telic>
+const:
+telic: used for serving and eating food
+comment:
+
+spoon.n.01
+gloss: a piece of cutlery with a shallow bowl-shaped container and a handle; used to stir or serve or take up food
+tagged: a piece of cutlery <const>with a shallow bowl-shaped container and a handle</const>; <telic>used to stir or serve or take up food</telic>
+const: with a shallow bowl-shaped container and a handle
+telic: used to stir or serve or take up food
+comment:
+
+spork.n.01
+gloss: trademark for a plastic eating utensil that has both tines and a bowl like a spoon
+tagged: trademark for a plastic <telic>eating utensil</telic> that <const>has both tines and a bowl like a spoon</const>
+const: has both tines and a bowl like a spoon
+telic: eating utensil
+comment:
+
+table_knife.n.01
+gloss: a knife used for eating at dining table
+tagged: a knife <telic>used for eating at dining table</telic>
+const:
+telic: used for eating at dining table
+comment:
+
+plate.n.04
+gloss: dish on which food is served or from which food is eaten
+tagged: dish <telic>on which food is served or from which food is eaten</telic>
+const:
+telic: on which food is served or from which food is eaten
+comment:
+
+platter.n.01
+gloss: a large shallow dish used for serving food
+tagged: a large shallow dish <telic>used for serving food</telic>
+const:
+telic: used for serving food
+comment:
+
+saucer.n.02
+gloss: a small shallow dish for holding a cup at the table
+tagged: a small shallow dish <telic>for holding a cup at the table</telic>
+const:
+telic: for holding a cup at the table
+comment:
+
+crystal.n.05
+gloss: glassware made of quartz
+tagged: glassware made of quartz
+const:
+telic:
+comment:
+
+cut_glass.n.01
+gloss: glass decorated by cutting or grinding facets
+tagged: glass <const>decorated by cutting or grinding facets</const>
+const: decorated by cutting or grinding facets
+telic:
+comment:
+
+glass.n.07
+gloss: glassware collectively
+tagged: glassware collectively
+const:
+telic:
+comment:
+
+venetian_glass.n.01
+gloss: fine glassware made near Venice
+tagged: fine glassware made near Venice
+const:
+telic:
+comment:
+
+dinner_service.n.01
+gloss: a table service for serving dinner
+tagged: a table service <telic>for serving dinner</telic>
+const:
+telic: for serving dinner
+comment:
+
+place_setting.n.01
+gloss: a table service for one person
+tagged: a table service for one person
+const:
+telic:
+comment:
+
+flatware.n.02
+gloss: silverware eating utensils
+tagged: silverware <telic>eating utensils</telic>
+const:
+telic: eating utensils
+comment:
+
+willowware.n.01
+gloss: chinaware decorated with a blue Chinese design on a white background
+tagged: chinaware <const>decorated with a blue Chinese design on a white background</const>
+const: decorated with a blue Chinese design on a white background
+telic:
+comment:
+
+beaker.n.02
+gloss: a cup (usually without a handle)
+tagged: a cup (usually without a handle)
+const:
+telic:
+comment:
+
+chalice.n.01
+gloss: a bowl-shaped drinking vessel; especially the Eucharistic cup
+tagged: a bowl-shaped drinking vessel; especially the Eucharistic cup
+const:
+telic:
+comment:
+
+coffee_cup.n.01
+gloss: a cup from which coffee is drunk
+tagged: a cup <telic>from which coffee is drunk</telic>
+const:
+telic: from which coffee is drunk
+comment:
+
+dixie_cup.n.01
+gloss: a disposable cup made of paper; for holding drinks
+tagged: a disposable cup made of paper; <telic>for holding drinks</telic>
+const:
+telic: for holding drinks
+comment:
+
+grace_cup.n.01
+gloss: cup to be passed around for the final toast after a meal
+tagged: cup to <telic>be passed around for the final toast after a meal</telic>
+const:
+telic: be passed around for the final toast after a meal
+comment:
+
+kylix.n.01
+gloss: a shallow drinking cup with two handles; used in ancient Greece
+tagged: a shallow drinking cup <const>with two handles</const>; <telic>used in ancient Greece</telic>
+const: with two handles
+telic: used in ancient Greece
+comment:
+
+mustache_cup.n.01
+gloss: a drinking cup with a bar inside the rim to keep a man's mustache out of the drink
+tagged: a drinking cup <const>with a bar inside the rim</const> to keep a man's mustache out of the drink
+const: with a bar inside the rim
+telic:
+comment:
+
+scyphus.n.01
+gloss: an ancient Greek drinking cup; two handles and footed base
+tagged: an ancient Greek drinking cup; <const>two handles and footed base</const>
+const: two handles and footed base
+telic:
+comment:
+
+teacup.n.02: a cup from which tea is drunk
+gloss: a cup from which tea is drunk
+tagged: a cup <telic>from which tea is drunk</telic>
+const:
+telic: from which tea is drunk
+comment:
+
+bowl.n.03
+gloss: a dish that is round and open at the top for serving foods
+tagged: a dish that is round and open at the top <telic>for serving foods</telic>
+const:
+telic: for serving foods
+comment:
+
+butter_dish.n.01
+gloss: a small dish (often with a cover) for holding butter at the table
+tagged: a small dish (often <const>with a cover</const>) <telic>for holding butter at the table</telic>
+const: with a cover
+telic: for holding butter at the table
+comment:
+
+casserole.n.02: large deep dish in which food can be cooked and served
+gloss: large deep dish in which food can be cooked and served
+tagged: large deep dish <telic>in which food can be cooked and served<telic>
+const:
+telic: in which food can be cooked and served
+comment:
+
+coquille.n.02
+gloss: a dish in the form of a scallop shell
+tagged: a dish in the form of a scallop shell
+const:
+telic:
+comment:
+
+gravy_boat.n.01
+gloss: a dish (often boat-shaped) for serving gravy or sauce
+tagged: a dish (often boat-shaped) <telic>for serving gravy or sauce</telic>
+const:
+telic: for serving gravy or sauce
+comment:
+
+petri_dish.n.01
+gloss: a shallow dish used to culture bacteria
+tagged: a shallow dish <telic>used to culture bacteria</telic>
+const:
+telic: used to culture bacteria
+comment:
+
+ramekin.n.02
+gloss: a small fireproof dish used for baking and serving individual portions
+tagged: a small fireproof dish <telic>used for baking and serving individual portions</telic>
+const:
+telic: used for baking and serving individual portions
+comment:
+
+serving_dish.n.01
+gloss: a dish used for serving food
+tagged: a dish <telic>used for serving food</telic>
+const:
+telic: used for serving food
+comment:
+
+sugar_bowl.n.01
+gloss: a dish in which sugar is served
+tagged: a dish <telic>in which sugar is served</telic>
+const:
+telic: in which sugar is served
+comment:
+
+watch_glass.n.01
+gloss: laboratory glassware; a shallow glass dish used as an evaporating
+tagged: laboratory glassware; a shallow glass dish <telic>used as an evaporating</telic>
+const:
+telic: used as an evaporating
+comment:
+
+carving_fork.n.01
+gloss: a large fork used in carving cooked meat
+tagged: a large fork <telic>used in carving cooked meat</telic>
+const:
+telic: used in carving cooked meat
+comment:
+
+salad_fork.n.01
+gloss: a fork intended for eating salads
+tagged: a fork <telic>intended for eating salads</telic>
+const:
+telic: intended for eating salads
+comment:
+
+tablefork.n.01
+gloss: a fork for eating at a dining table
+tagged: a fork <telic>for eating at a dining table</telic>
+const:
+telic: for eating at a dining table
+comment:
+
+toasting_fork.n.01
+gloss: long-handled fork <telic>for cooking or toasting frankfurters or bread etc. (especially over an open fire)</telic>
+tagged: long-handled fork for cooking or toasting frankfurters or bread etc. (especially over an open fire)
+const:
+telic: for cooking or toasting frankfurters or bread etc. (especially over an open fire)
+comment:
+
+dessert_spoon.n.01
+gloss: a spoon larger than a teaspoon and smaller than a tablespoon
+tagged: a spoon larger than a teaspoon and smaller than a tablespoon
+const:
+telic:
+comment:
+
+runcible_spoon.n.01
+gloss: a fork-like spoon with a cutting edge; coined by Edward Lear
+tagged: a fork-like spoon <const>with a cutting edge</const>; coined by Edward Lear
+const: with a cutting edge
+telic:
+comment:
+
+soupspoon.n.01
+gloss: a spoon with a rounded bowl for eating soup
+tagged: a spoon <const>with a rounded bowl</const> <telic>for eating soup</telic>
+const: with a rounded bowl
+telic: for eating soup
+comment:
+
+sugar_spoon.n.01
+gloss: a spoon for serving sugar; often made in the shape of a seashell
+tagged: a spoon <telic>for serving sugar</telic>; often made in the shape of a seashell
+const:
+telic: for serving sugar
+comment:
+
+tablespoon.n.02
+gloss: a spoon larger than a dessert spoon; used for serving
+tagged: a spoon larger than a dessert spoon; <telic>used for serving</telic>
+const:
+telic: used for serving
+comment:
+
+tea_maker.n.01
+gloss: a covered spoon with perforations
+tagged: a covered spoon with perforations
+const:
+telic:
+comment:
+
+teaspoon.n.02
+gloss: a small spoon used for stirring tea or coffee; holds about one fluid dram
+tagged: a small spoon <const>used for stirring tea or coffee</const>; holds about one fluid dram
+const:
+telic: used for stirring tea or coffee
+comment:
+
+wooden_spoon.n.02
+gloss: a spoon made of wood
+tagged: a spoon made of wood
+const:
+telic:
+comment:
+
+butter_knife.n.01
+gloss:  a small knife with a dull blade; for cutting or spreading butter
+tagged:  a small knife <const>with a dull blade</const>; <telic>for cutting or spreading butter</telic>
+const: with a dull blade
+telic: for cutting or spreading butter
+comment:
+
+case_knife.n.01
+gloss: a metal blade with a handle; used as cutlery
+tagged: a metal blade <const>with a handle</const>; <telic>used as cutlery</telic>
+const: with a handle
+telic: used as cutlery
+comment:
+
+fish_knife.n.01
+gloss: a small table knife with a spatula blade used for eating fish
+tagged: a small table knife <const>with a spatula blade</cosnt> <telic>used for eating fish</telic>
+const: with a spatula blade
+telic: used for eating fish
+comment:
+
+steak_knife.n.01
+gloss: a sharp table knife used in eating steak
+tagged: a sharp table knife <telic>used in eating steak</telic>
+const:
+telic: used in eating steak
+comment:
+
+dessert_plate.n.01
+gloss: a small plate on which dessert can be served
+tagged: a small plate <telic>on which dessert can be served</telic>
+const:
+telic: on which dessert can be served
+comment:
+
+dinner_plate.n.01
+gloss: a plate from which a diner eats during the main course of a meal
+tagged: a plate <telic>from which a diner eats during the main course of a meal</telic>
+const:
+telic: from which a diner eats during the main course of a meal
+comment:
+
+paper_plate.n.01
+gloss: a disposable plate made of cardboard
+tagged: a disposable plate made of cardboard
+const:
+telic:
+comment:
+
+salad_plate.n.01
+gloss: a plate or bowl for individual servings of salad
+tagged: a plate or bowl <telic>for individual servings of salad</telic>
+const:
+telic: for individual servings of salad
+comment:
+
+soup_plate.n.01
+gloss: a deep plate with a wide rim
+tagged: a deep plate <const>with a wide rim</const>
+const: with a wide rim
+telic:
+comment:
+
+steel_plate.n.01
+gloss: a plate of steel
+tagged: a plate of steel
+const:
+telic:
+comment:
+
+demitasse.n.02
+gloss: small coffee cup; for serving black coffee
+tagged: small coffee cup; <telic>for serving black coffee</telic>
+const:
+telic: for serving black coffee
+comment:
+
+cereal_bowl.n.01
+gloss: a bowl for holding breakfast cereal
+tagged: a bowl <telic>for holding breakfast cereal</telic>
+const:
+telic: for holding breakfast cereal
+comment:
+
+finger_bowl.n.01
+gloss: small bowl for rinsing the fingers at table
+tagged: small bowl <telic>for rinsing the fingers at table</telic>
+const:
+telic: for rinsing the fingers at table
+comment:
+
+mixing_bowl.n.01
+gloss: bowl used with an electric mixer
+tagged: bowl used with an electric mixer
+const:
+telic:
+comment:
+
+porringer.n.01
+gloss: a shallow metal bowl (usually with a handle)
+tagged: a shallow metal bowl (usually <const>with a handle</const>)
+const: with a handle
+telic:
+comment:
+
+punch_bowl.n.01
+gloss: a large bowl for serving beverages; usually with a ladle
+tagged: a large bowl <telic>for serving beverages</telic>; usually <const>with a ladle</const>
+const: with a ladle
+telic: for serving beverages
+comment:
+
+salad_bowl.n.02
+gloss: a large bowl for mixing and serving a salad
+tagged: a large bowl <telic>for mixing and serving a salad</telic>
+const:
+telic: for mixing and serving a salad
+comment:
+
+slop_basin.n.01
+gloss: a bowl into which the dregs of teacups and coffee cups are emptied at the table
+tagged: a bowl <telic>into which the dregs of teacups and coffee cups are emptied at the table</telic>
+const:
+telic: into which the dregs of teacups and coffee cups are emptied at the table
+comment:
+
+soup_bowl.n.01
+gloss: a bowl for serving soup
+tagged: a bowl <telic>for serving soup</telic>
+const:
+telic: for serving soup
+comment:
+
+cocotte.n.02
+gloss: a small casserole in which individual portions can be cooked and served
+tagged: a small casserole <telic>in which individual portions can be cooked and served</telic>
+const:
+telic: in which individual portions can be cooked and served
+comment:
+
+argyll.n.01
+gloss: a covered gravy holder of silver or other metal containing a detachable central vessel for hot water to keep the gravy warm
+tagged: a covered gravy holder of silver or other metal <const>containing a detachable central vessel</const> for hot water <telic>to keep the gravy warm</telic>
+const: containing a detachable central vessel 
+telic: to keep the gravy warm
+comment:
+
+tureen.n.01
+gloss: large deep serving dish with a cover; for serving soups and stews
+tagged: large deep serving dish <const>with a cover</const>; <telic>for serving soups and stews</telic>
+const: with a cover
+telic: for serving soups and stews
+comment:
+
+iced-tea_spoon.n.01
+gloss: a teaspoon with a long handle
+tagged: a teaspoon <const>with a long handle</const>
+const: with a long handle
+telic:
+comment:
+
+broom.n.01
+gloss: a cleaning implement for sweeping; bundle of straws or twigs attached to a long handle
+tagged: a cleaning implement <telic>for sweeping</telic>; <const>bundle of straws or twigs</const> attached to <const>a long handle</const>
+const: bundle of straws or twigs, a long handle
+telic: for sweeping
+comment:
+
+carpet_sweeper.n.01
+gloss: a cleaning implement with revolving brushes that pick up dirt as the implement is pushed over a carpet
+tagged: a cleaning implement <const>with revolving brushes</const> that <telic>pick up dirt as the implement is pushed over a carpet</telic>
+const: with revolving brushes
+telic: pick up dirt as the implement is pushed over a carpet
+comment:
+
+cleaning_pad.n.01
+gloss: a pad used as a cleaning implement
+tagged: a pad <telic>used as a cleaning implement</telic>
+const:
+telic: used as a cleaning implement
+comment:
+
+pipe_cleaner.n.01
+gloss: cleaning implement consisting of a flexible tufted wire that is used to clean a pipe stem 
+tagged: cleaning implement <const>consisting of a flexible tufted wire</const> that is <telic>used to clean a pipe stem</telic>
+const: consisting of a flexible tufted wire
+telic: used to clean a pipe stem
+comment:
+
+pull-through.n.01
+gloss: cleaning implement consisting of an oily rag attached by a cord to a weight; is pulled through the barrel of a rifle or handgun to clean it
+tagged: cleaning implement <const>consisting of an oily rag attached by a cord to a weight</const>; <telic>is pulled through the barrel of a rifle or handgun to clean it</telic>
+const: consisting of an oily rag attached by a cord to a weight
+telic: is pulled through the barrel of a rifle or handgun to clean it
+comment:
+
+squeegee.n.01
+gloss: T-shaped cleaning implement with a rubber edge across the top; drawn across a surface to remove water (as in washing windows) 
+tagged: T-shaped cleaning implement <const>with a rubber edge across the top</const>; <telic>drawn across a surface to remove water (as in washing windows)</telic>
+const: with a rubber edge across the top
+telic: drawn across a surface to remove water (as in washing windows)
+comment:
+
+swab.n.02
+gloss: cleaning implement consisting of absorbent material fastened to a handle; for cleaning floors
+tagged: cleaning implement <const>consisting of absorbent material fastened to a handle</const>; <telic>for cleaning floors</telic>
+const: consisting of absorbent material fastened to a handle
+telic: for cleaning floors
+comment:
+
+besom.n.01
+gloss: a broom made of twigs tied together on a long handle
+tagged: a broom made of <const>twigs tied together on a long handle</const>
+const: twigs tied together on a long handle
+telic:
+comment:
+
+push_broom.n.01
+gloss: a wide broom that is pushed ahead of the sweeper 
+tagged: a wide broom that is <telic>pushed ahead of the sweeper</telic>
+const:
+telic: pushed ahead of the sweeper
+comment:
+
+whisk.n.02
+gloss: a small short-handled broom used to brush clothes
+tagged: a small short-handled broom <telic>used to brush clothes</telic>
+const:
+telic: used to brush clothes
+comment:
+
+scouring_pad.n.01
+gloss: a small abrasive cleaning pad used for scouring pots and pans
+tagged: a small abrasive cleaning pad <telic>used for scouring pots and pans</telic>
+const:
+telic: used for scouring pots and pans
+comment:
+
+soap_pad.n.01
+gloss: a cleaning pad containing soap
+tagged: a cleaning pad <const>containing soap</const>
+const: containing soap
+telic:
+comment:
+
+dustmop.n.01
+gloss: a dry swab for dusting floors
+tagged: a dry swab <telic>for dusting floors</telic>
+const:
+telic: for dusting floors
+comment:
+
+sponge_mop.n.01
+gloss: a wet mop with a sponge as the absorbent
+tagged: a wet mop <const>with a sponge</const> as the absorbent
+const: with a sponge
+telic:
+comment:
+
+chalk.n.04
+gloss: a piece of calcite or a similar substance, usually in the shape of a crayon, that is used to write or draw on blackboards or other flat surfaces
+tagged: a piece of calcite or a similar substance, usually in the shape of a crayon, that is <telic>used to write or draw on blackboards or other flat surfaces</telic>
+const:
+telic: used to write or draw on blackboards or other flat surfaces
+comment:
+
+charcoal.n.02
+gloss: a stick of black carbon material used for drawing
+tagged: a stick of black carbon material <telic>used for drawing</telic>
+const:
+telic: used for drawing
+comment:
+
+cyclostyle.n.01
+gloss: a writing implement with a small toothed wheel that cuts small holes in a stencil
+tagged: <telic>a writing implement</telic> <const>with a small toothed wheel</const> that cuts small holes in a stencil
+const: with a small toothed wheel
+telic: a writing implement
+comment:
+
+marker.n.03
+gloss: a writing implement for making a mark
+tagged: <telic>a writing implement</telic> <telic>for making a mark</telic>
+const:
+telic: a writing implement, for making a mark
+comment:
+
+pen.n.01
+gloss: a writing implement with a point from which ink flows
+tagged: <telic>a writing implement</telic> <const>with a point from which ink flows</const>
+const: with a point from which ink flows
+telic: a writing implement
+comment:
+
+pencil.n.01
+gloss: a thin cylindrical pointed writing implement; a rod of marking substance encased in wood
+tagged: a thin cylindrical pointed <telic>writing implement</telic>; <const>a rod of marking substance</const> encased in <const>wood</const>
+const: a rod of marking substance, wood
+telic: writing implement
+comment:
+
+sketcher.n.02
+gloss: an implement for sketching
+tagged: an implement <telic>for sketching</telic>
+const:
+telic: for sketching
+comment:
+
+drawing_chalk.n.01
+gloss: colored chalks used by artists
+tagged: colored chalks <telic>used by artists</telic>
+const:
+telic: used by artists
+comment:
+
+tailor's_chalk.n.01
+gloss: chalk used by tailors to make temporary marks on cloth
+tagged: chalk <telic>used by tailors to make temporary marks on cloth</telic>
+const:
+telic: used by tailors to make temporary marks on cloth
+comment:
+
+highlighter.n.02
+gloss: a fluorescent marker used to mark important passages in a text
+tagged: a fluorescent marker <telic>used to mark important passages in a text</telic>
+const:
+telic: used to mark important passages in a text
+comment:
+
+ballpoint.n.01
+gloss: a pen that has a small metal ball as the point of transfer of ink to paper
+tagged: a pen that <const>has a small metal ball as the point of transfer of ink to paper</const>
+const: has a small metal ball as the point of transfer of ink to paper
+telic:
+comment:
+
+felt-tip_pen.n.01
+gloss: a pen with a writing tip made of felt (trade name Magic Marker)
+tagged: a pen <const>with a writing tip made of felt (trade name Magic Marker)</const>
+const: with a writing tip made of felt (trade name Magic Marker)
+telic:
+comment:
+
+fountain_pen.n.01
+gloss: a pen that is supplied with ink from a reservoir in its barrel
+tagged: a pen that is supplied with ink from <const>a reservoir in its barrel</const>
+const: a reservoir in its barrel
+telic:
+comment:
+
+quill.n.01
+gloss: pen made from a bird's feather
+tagged: pen made from a bird's feather
+const:
+telic:
+comment:
+
+sharpie.n.03
+gloss: a pen with indelible ink that will write on any surface
+tagged: a pen <const>with indelible ink</const> that <telic>will write on any surface</telic>
+const: with indelible ink
+telic: will write on any surface
+comment:
+
+lead_pencil.n.01: pencil that has graphite as the marking substance
+gloss: pencil that has graphite as the marking substance
+tagged: pencil that has <const>graphite</const> as the marking substance
+const: graphite
+telic:
+comment:
+
+slate_pencil.n.01
+gloss: a pencil of soft slate (or soapstone) used for writing on a slate
+tagged: a pencil of <const>soft slate (or soapstone)</const> <telic>used for writing on a slate</telic>
+const: soft slate (or soapstone)
+telic: used for writing on a slate
+comment:
